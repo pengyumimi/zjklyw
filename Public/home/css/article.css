@@ -1,0 +1,498 @@
+body{
+	font-family: 'Microsoft Yahei';
+}
+
+h1{
+	font: normal 28px/2em 'Microsoft Yahei';
+	margin-top: 0;
+}
+
+/* 左侧列表通用样式 */
+.common_list{
+	width: 800px;
+	overflow: hidden;
+	background: #fafafa;
+	padding: 10px;
+}
+/* /左侧列表通用样式 */
+
+
+/* 右侧点评通用样式 */
+.ping_list{
+	width: 300px;
+	overflow: hidden;
+	background: #f5f5f5;
+	padding: 5px 10px;
+}
+
+.ping_title{
+	margin: 10px auto;
+	padding: 1px 0;
+}
+
+.ping_title h3{
+	height: 30px;
+	line-height: 30px;
+	padding: 1px 0;
+	margin: 0;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.ping_title h3 a{
+	height: 30px;
+	line-height: 30px;
+	padding: 0 15px;
+	vertical-align: top;
+    float: right;
+}
+
+.ping_item{
+    height: 100px;
+    padding: 0 10px;
+    position: relative;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+.ping_item .ping_tx{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 10px;
+	top: 10px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.ping_item .ping_text{
+	margin-left: 50px;
+}
+
+.ping_item .ping_text h4{
+	font-size: 14px;
+	color: #000;
+}
+
+.ping_item .ping_text h4 span{
+	margin: 0 3px;
+	color: #999;
+}
+
+.ping_item .ping_text h4 cite{
+	color: #666;
+	font-style: normal;
+}
+
+.ping_item .ping_text p{
+	position: relative;
+	height: 4em;
+	line-height: 2em;
+	overflow: hidden;
+}
+
+.ping_item .ping_text p a{
+	position: absolute;
+	display: block;
+	right: 0;
+	bottom: 0;
+	color: #f08800;
+	z-index: 1;
+	padding: 0 0 0 30px;
+    /*background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.8) 20%, rgba(255, 255, 255, 1) 90%, #FFFFFF 100%);*/
+	background: url(../img/jianbain.png) repeat-y;
+	background-size: 100% 100%;
+
+}
+/* /右侧点评通用样式 */
+
+
+/* 详情页主体样式 */
+.user_banner{
+	margin-top:-1px;
+	margin-bottom: 100px;
+	position:relative;
+	overflow: inherit;
+}
+
+.list_banner{
+	width: 100%;
+}
+
+.article_user{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	bottom: -50px;
+	left: 0; 
+	right: 0;
+	margin: auto;
+}
+
+.article_user .user_tx{
+	width: 100%;
+	height: 100%;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	cursor: pointer;
+	-webkit-transition: 0.8s ease-out;
+	transition: 0.8s ease-out;/*变化时间设置为0.8秒(变化动作即为下面的图像旋转360du）*/
+	-moz-transition: 0.8s ease-out;
+}
+
+.article_user .user_tx:hover{
+	transform: rotateZ(-360deg);/*图像旋转360度*/
+	-webkit-transform: rotateZ(-360deg);
+	-moz-transform: rotateZ(-360deg);
+}
+
+.user_name,.user_lv{
+	position: absolute;
+	width: 542px;
+	height: 50px;
+	text-align: right;
+	margin: auto;
+	line-height: 50px;
+	bottom: -50px;
+	left: 0;
+}
+
+.user_lv{
+	left: auto;
+	right: 0;
+	text-align: left;
+}
+
+.article_icons{
+	height: 40px;
+	line-height: 40px;
+	margin: 10px auto;
+	background: #fafafa;
+	text-align: right;
+	color: #999;
+}
+
+.article_icons span{
+	margin: 0 10px;
+}
+
+.article_content{
+	font: normal 14px/2em "微软雅黑";
+	text-align: left;
+}
+
+.article_content img{
+	max-width: 100%;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	margin: 10px 0;
+}
+
+.article_tag{
+	margin: 10px auto;
+	padding: 5px;
+}
+
+.article_tag a{
+	padding: 4px 10px;
+	background: #009944;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	margin: 5px 10px;
+	color: #fff;
+	display: block;
+}
+
+/* 注意事项 */
+.zysx{
+	margin: 10px auto;
+	padding: 10px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px dashed #ff9d00;
+}
+
+.zysx span{
+	display: inline-block;
+	margin: 5px 15px;
+	vertical-align: top;
+	
+}
+
+.zysx i{
+	color: #ff9d00;
+	font-size: 1.2em;
+	
+}
+
+/* 产品详情 */
+.goods_imgs{
+	width: 55%;
+	text-align: left;
+}
+
+.goods_imgs img{
+	width: 94%;
+}
+
+.goods_price{
+	width: 45%;
+}
+
+.goods_price h1{
+	text-align: left;
+}
+
+.goods_price p{
+	line-height: 1.75em;
+}
+
+.goods_price .price{
+    float: left;
+}
+
+.goods_price .price span,.goods_price .cantuan span{
+    font-size: 24px;
+    color: #FF6600;
+	margin: 0 5px;
+	display:inline-block;
+    vertical-align:middle;
+}
+
+.goods_price .cantuan{
+	float: right;
+}
+
+.goods_tab{
+	overflow: hidden;
+	height: auto;
+    margin: 10px;
+}
+
+.goods_tab .tabs{
+	display: block;
+	height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.goods_tab ul.tabs li{
+    width: 110px;
+    text-align: center;
+	float: left;
+	margin-right: 10px;
+	padding: 0 15px;
+	background: #0A84C1;
+	color: #fff;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.goods_tab ul.tabs li a{
+	color: #fff;
+}
+
+.tab_content{
+	padding: 5px;
+	border: 1px dashed #ccc;
+}
+
+.tab_content ol{
+	margin: 0;
+}
+
+.tab_active{
+	background: #FF6600 !important;
+}
+
+.tab_act{
+	display: none;
+}
+
+.tab_active .tab_act{
+	display: inline;
+}
+
+.add_num{
+}
+
+.add_num input{
+    width: 100px;
+    height: 40px;
+    display: inline;
+}
+
+.add_num .button{
+    margin-right: 10px;
+}
+
+.add_num .button cite{
+    display: inline-block;
+    vertical-align: middle;
+    width: 1px;
+    height: 25px;
+    background: #fff;
+    margin: 0 5px;
+}
+
+/* /产品详情 */
+
+/* /详情页主体样式 */
+
+/* 支付样式 */
+.pay_confirm{
+	
+}
+
+.confirm_box{
+	width: 600px;
+	margin: 50px auto;
+	border: 4px solid #ccc;
+	padding: 10px;
+}
+
+.confirm_box h3{
+	font-size: 18px;
+}
+
+.confirm_list tr td:first-child{
+	width: 20%;
+	font-style: normal;
+	font-weight: 900;
+	text-align: right;
+}
+
+.confirm_user{
+	padding: 5px 50px;
+    position:relative
+}
+
+.confirm_username{
+	border: 2px solid #e4393c;
+	padding: 4px 23px;
+}
+
+.confirm_ewm {
+	position: absolute;
+	z-index: 2;
+	right: 10px;
+	top: -10px;
+	width: 120px;
+}
+
+.confirm_userhelp{
+    position: absolute;
+    right: 20px;
+    font-size: 18px;
+    color: #e4393c;
+    cursor: pointer;
+}
+
+.zffs_list{
+	margin-top: 50px;
+    border-bottom: 1px solid #eee;
+}
+
+.zffs_list table td{
+	position: relative;
+}
+
+.zffs_list table td img{
+	width: 100%;
+	cursor: pointer;
+}
+
+.zffs_list table tr td {
+	padding: 20px 40px;
+	text-align: center;
+}
+
+.zffs_list table td span{
+	width: 18px;
+	height: 18px;
+	border: 1px solid #ccc;
+	position: absolute;
+	z-index: 1;
+	right: 30px;
+	top: 15px;
+	background: #fff;
+	cursor: pointer;
+}
+
+.zffs_list table td span img{
+	width: 30px;
+	position: absolute;
+	z-index: 2;
+	top: -5px;
+    left: -5px;
+}
+
+.but_list{
+	text-align: center;
+	margin: 20px auto;
+}
+
+.but_list button {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 4px 10px;
+    width: 150px;
+    height: 36px;
+    margin: 0 20px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+/* /支付样式 */
+
+.article_baoming{
+    position: fixed;
+    z-index: 9999;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: rgba(255, 116, 102, 0.7);
+}
+.xiaofang{
+    background: rgba(123, 114, 233, 0.75);
+}
+.article_baoming a{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    line-height: 80px;
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

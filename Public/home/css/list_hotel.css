@@ -1,0 +1,505 @@
+/* 酒店列表 */
+.hotel_s1{
+    padding: 5px 0;
+}
+
+.s1{
+    float: left;
+    width: 177px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.s1 span{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 8px 30px;
+    background: #0A84C1;
+    color: #fff;
+    cursor: pointer;
+}
+
+.s1 span:first-child{
+    background: #FF7466;
+}
+
+.s1 cite{
+    display: inline-block;
+    width: 1px;
+    height: 100%;
+    background: #fff;
+}
+
+.s2 span{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 8px 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.hotel_s2{
+    margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.s3{
+    float: left;
+    width: 88px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.s3 span{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 8px 16px; 
+    background: #0A84C1;
+    color: #fff;
+    cursor: pointer;
+}
+
+.s4 span{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 8px 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+input[type='radio'],input[type='checkbox ']{
+    margin: 0 4px;
+}
+
+.hotel_list_box{
+	overflow: hidden;
+	margin: 15px auto;
+}
+
+.hotel_list{
+	width: 800px;
+	background: #fff;
+}
+
+.hotel_map{
+	width: 385px;
+	background:blue;
+}
+
+.hotel_title {
+    height: 40px;
+    line-height: 40px;
+    background: #EBF8FF;
+    border-top: 2px solid #0A84C1;
+}
+
+.hotel_title span{
+	padding: 10px;
+	cursor: pointer;
+}
+
+.hotel_items{
+	padding: 20px 0;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+}
+
+.hotel_items:hover{
+	background: rgb(245,250,255);
+}
+
+.hotel_item1{
+	width: 180px;
+	height: 130px;
+	float: left;
+}
+
+.hotel_item2{
+	width: 350px;
+	height: 130px;
+	padding: 0 5px 0 10px;
+	float: left;
+}
+
+.hotel_item2 .h1{
+	font: normal 18px/1.5em 'Microsoft Yahei';
+	text-align: left;
+	margin: 5px 0;
+	color: #37D;
+	display: inline-block;
+    width: 100%;
+	vertical-align: top;
+}
+
+.hotel_item2 p{
+	font: normal 13px/1.5em 'Microsoft Yahei';
+	text-align: left;
+	margin: 5px 0;
+	color: #666;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.item2_icon{
+	margin: 5px 0;
+}
+
+.item2_icon i{
+	margin: 0 3px;
+	color: #37D;
+	cursor: pointer;
+}
+
+.hotel_item2 .h1:hover{
+	color: #f55;
+}
+
+.hotel_item3{
+	width: 138px;
+	height: 130px;
+	font-size: 12px;
+	text-align: center;
+	padding: 0 5px; 
+	float: left;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+.hotel_item3{
+	
+}
+
+.item3_hp{
+	
+	display: inline-block;
+	margin: 5px auto;
+	padding: 3px 8px;
+	background: rgb(245,250,255);
+}
+
+.item3_hp span{
+	font-size: 16px;
+	color: #37D;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 5px;
+}
+
+.hotel_item4{
+	width: 130px;
+	height: 130px;
+	padding: 0 5px;
+	float: left;
+	text-align: center;
+}
+
+.item4_price{
+	margin: 5px auto 15px;
+	cursor: pointer;
+}
+
+.item4_price a{
+	color: #FF4351;
+}
+
+.item4_price span{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 5px;
+	font-size: 26px;
+}
+
+.but_bm{
+	width: 120px;
+	margin:0 auto;
+}
+
+.but_bm a{
+	padding: 0 20px;
+}
+/* /酒店列表 */
+
+/* 酒店详情 */
+.mb_nav {
+	width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.hdetail_rela_wrap {
+    background-color: #f5f5f5;
+    padding: 5px 0 10px;
+}
+/* 酒店详情酒店展示幻灯片 */
+.fluid_container {
+	width: 800px;
+	height: 500px;
+    float: left;	
+}
+.pattern_1 {
+	width: 800px;
+	height: 500px;
+	margin-bottom: 0!important;
+}
+.camera_bar {
+	z-index: 2;
+}
+.camera_thumbs {
+	margin-top: -93px;
+	position: relative;
+	z-index: 1;
+}
+.camera_thumbs_cont {
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+.camera_overlayer {
+	opacity: .1;
+}
+.pix_thumb img{
+	width: 100px;
+	height: 70px;
+}
+/* /酒店详情酒店展示幻灯片 */
+.hotel_info{
+	text-align: left;
+}
+.hotel_info h1{
+	font-size: 24px;
+	text-align: left;
+	margin: 5px 0;
+}
+.hotel_address {
+    margin-bottom: 10px;
+}
+.hotel_imgstxt{
+	margin-left: 800px;
+	height: 500px;
+	background: #fff;
+	box-sizing: border-box;
+	padding: 20px;
+}
+.hotel_imgstxt1,.hotel_imgstxt2,.hotel_imgstxt3{
+	border-bottom: 1px solid #eee;
+	margin: 10px auto;
+    height: 80px;	
+}
+.hotel_imgstxt2{
+	height: auto;
+}
+.hotel_imgstxt3{
+	height: 160px;
+	padding-top: 30px;
+}
+.hotel_imgstxt3 span{
+	display: inline-block;
+	vertical-align: top;
+	width: 80px;
+	height: 80px;
+    padding-top: 10px;
+	border-radius: 40px;
+	background: #F5F5F5;
+    text-align: center;	
+    cursor: pointer;
+    margin: 0 15px;    
+}
+.hotel_imgstxt3 span:hover{
+	background: #EFF8FF;
+}
+.hotel_imgstxt3 span i{
+	font-size: 36px;
+	color: #ef5e49;
+}
+.hotel_infoBtn{
+	width: 800px;
+	float: left;
+    border-bottom: 1px solid #F9F9F9;
+}
+.hotel_infoBtnul{
+	overflow: hidden;
+}
+.hotel_infoBtnul li{
+    width: 6em;
+    height: 40px;
+    float: left;
+    margin-right: 5px;
+    color: #333;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+	cursor: pointer;
+}
+.hotel_infoBtn .active{
+	color: #fff;
+    background-color: #0090ff;
+}
+.box_Open{
+	margin: 8px auto;
+	border: 1px solid #e9e9e9;
+    -webkit-box-shadow: 0 0 2px 2px #f8f8f8;
+    -moz-box-shadow: 0 0 2px 2px #f8f8f8;
+    box-shadow: 0 0 2px 2px #f8f8f8;
+}
+.box_open_head{
+	position: relative;
+	height: 120px;
+	background-color: rgb(243, 243, 243);
+}
+.box_openheadImg{
+	position: absolute;
+	z-index: 1;
+	width: 100px;
+	height: 100px;
+	left: 10px;
+	top: 10px;
+}
+.box_open_h1{
+    max-width: 550px;
+	margin-left: 120px;
+	margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.box_open_h2{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+    height: 100px;	
+    text-align: right;
+}
+.box_open_btn {
+    background-color: transparent;
+    color: #0084FF;
+}
+
+/* 酒店服务 */
+.hdetail_tit2 {
+    text-align: left;
+    border-left: 4px solid #0090FF;
+    padding-left: 10px;
+}
+ul.dview_icon_list {
+    padding: 20px 15px;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+ul.dview_icon_list li {
+    display: inline-block;
+    vertical-align: top;
+    width: 56px;
+    height: 56px;
+    margin-right: 20px;
+    text-align: center;    
+}
+ul.dview_icon_list li .fa {
+    font-size: 36px;
+    color: #0090FF;
+}
+ul.dview_icon_list li p {
+    font-size: 12px;
+    margin-top: 5px;
+}
+.dview_info dd,.dview_info dt{
+	line-height: 30px;
+	font-size: 14px;
+}
+.dview_info_item{
+	line-height: 30px;
+    margin-bottom: 0;	
+}
+.dview_info_item dt {
+    width: 100px;
+    float: left;
+}
+.dview_info_item dt, .dview_info_item dd {
+    padding: 8px 0;
+}
+.dview_info_item dt {
+	font-weight: 600;
+    padding-left: 5px;
+}
+.dview_info_item dd {
+    margin-left: 105px;
+    border-bottom: 1px solid #EEE;
+    position: relative;
+}
+
+/* 交通/地图 */
+#container {
+    position: relative !important;
+    width: 100% !important;
+    height: 600px !important;
+}
+.map_bz{
+
+}
+.amap-marker-label {
+    position: absolute;
+    z-index: 2;
+    border: 1px solid #3993F8;
+    background-color: #fff;
+    white-space: nowrap;
+    cursor: default;
+    padding: 8px;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 3px;
+}
+/* /交通/地图 */
+
+/* /酒店服务 */
+
+/* 周边酒店列表 */
+.hotel_fx {
+    margin-left: 810px;
+    height: 600px;
+    
+}
+.hotel_zblist{
+	
+}
+.hotel_zblist h3{
+	padding: 10px;
+	background: #fff;
+	margin: 0;
+}
+.zbitem {
+    overflow: hidden;
+    margin-bottom: 15px;
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+.zbitem:hover{
+	background: #FBFBFB;
+}
+.zbitem:hover .zbitem_txt a{
+	color: #0a84c1;
+}
+.zbitem_img{
+	width: 100px;
+	height: 80px;
+}
+.zbitem_img img{
+	width: 100%;
+	height: 100%;
+}
+.zbitem_txt {
+    margin-left: 110px;
+        padding: 12px 10px 0 0;
+}
+.zbitem_txt h4 {
+	font-size: 100%;
+}
+.zbitem_txt a{
+	display: block;
+    margin-right: 60px;
+    color: #666;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/* /周边酒店列表 */
+
+/* /酒店详情 */

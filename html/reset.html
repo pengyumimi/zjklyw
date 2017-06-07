@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit"><!--默认用360极速模式渲染-->
+<title>找回密码-张家口旅游网</title>
+
+<link rel="stylesheet" href="common/font-awesome-4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="common/css/common.css">
+<link rel="stylesheet" type="text/css" href="css/login.css"/>
+<script src="common/js/jquery-1.9.1.min.js"></script>
+
+</head>
+
+<body id="login_bg">
+    <header>
+        <nav>
+            <a href="index.html"><img src="img/logo.png" class="logo left"/></a>
+            <ul class="nav_l left">
+                <li class="active"><a href="index.html">首页</a></li>
+                <li><a href="list_zty.html">主题游</a></li>
+                <li><a href="list_hotel.html">客栈&nbsp;<i class="fa fa-angle-down"></i></a>
+                    <ul class="drop-down"><!--二级菜单在一级li中嵌套ul列表即可-->
+                        <li><a href="list_hotel.html">精品酒店</a></li>
+                        <li><a href="list_hotel.html">特色民宿</a></li>
+                    </ul>
+                </li>
+                <li><a href="list_travels.html">游记</a></li>
+                <li><a href="list.html">商城</a></li>
+                <li><a href="http://www.beijing2022.cn/">奥运</a></li>
+            </ul>
+            <ul class="nav_r right">
+                <li><a href="login.html">登录</a>/<a href="register.html">注册</a></li>
+                <li><a href="login.html"><i class="fa fa-qq"></i></a></li>
+                <li><a href="login.html"><i class="fa fa-weixin"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+	<div class="login_wrapper">
+		<div class="login_header">
+        	<a href="index.html"><img src="img/logo_white.png" width="285" height="62" alt="" /></a>
+            <div id="cloud_s"><img src="img/cloud_s.png" width="81" height="52" alt="cloud" /></div>
+            <div id="cloud_m"><img src="img/cloud_m.png" width="136" height="95"  alt="cloud" /></div>
+        </div>
+        
+    	<input type="hidden" id="resubmitToken" value="" />
+     	<div class="find_psw">
+        	<img src="img/psw_step1.png" width="369" height="56" alt="找回密码第一步" />
+            <form id="pswForm" action="http://www.lagou.com/rs.html" method="post">
+           		<input type="text" name="email" id="email" tabindex="1" value="" placeholder="请输入注册时使用的邮箱地址" />
+                                <input type="submit" id="submitLogin" value="找回密码" />
+            </form>
+        </div>
+    </div>
+ 
+<script type="text/javascript">
+    $(document).ready(function() {
+    	$('#pswForm input[type="text"]').focus(function(){
+    		$(this).siblings('.error').hide();
+    	});
+    	//验证表单
+	    	 $("#pswForm").validate({
+	    	        rules: {
+			    	   	email: {
+			    	    	required: true,
+			    	    	email: true
+			    	   	}
+			    	},
+			    	messages: {
+			    	   	email: {
+			    	    	required: "请输入注册时使用的邮箱地址",
+			    	    	email: "请输入有效的邮箱地址，如：vivi@lagou.com"
+			    	   	}
+			    	},
+			    	submitHandler:function(form){ 
+			    		$(form).find(":submit").attr("disabled", true);
+			            form.submit();
+			        }  
+	    	});
+    	});
+    </script>
+    
+<script src="common/js/headroom.min.js"></script>
+<script src="js/zjkly_main.js"></script>
+<script type="text/javascript" src="js/jquery.lib.min.js"></script>
+<script type="text/javascript" src="js/cloud.js"></script><!-- 云动画 -->      
+</body>
+</html>
