@@ -7,8 +7,8 @@ class AlljdController extends CommonController {
     public function index(){
         $model = M('news');
         $count =$model ->where('catid>=25 and catid<=39 and status!=-1')->count();
-        $page = new \Think\Page($count,5);//没有显示条数
-        $page-> rollPage =5;
+        $page = new \Think\Page($count,10);//没有显示条数
+        $page-> rollPage =10;
         $Page -> lastSuffix = false;
         $page ->setConfig('prev','上一页');
         $page ->setConfig('next','下一页');

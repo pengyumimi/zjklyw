@@ -411,7 +411,199 @@ body{
 /* /主题游模块 */
 
 
+@media only screen and (max-width : 1200px) {
+    nav {
+        width: auto;
+        margin: 0 15px;
+    }
+    .nav_l {
+        display: none;
+        width: 100%;
+		position: absolute;
+		top: 68px;
+		left: 0;
+		padding: 0px 15px;
+		margin: 0;
+		background: #313131;
+	}
+	nav .nav_l a, .nav_r a {
+		color: #fff;
+		display: inline-block;
+		padding: 26px 20px;
+		font: normal 16px/1em 'Microsoft Yahei';
+	}
+	.nav_r {
+		margin-right: 40px;
+	}
+	nav ul:last-child a {
+		padding: 19px 5px;
+	}
+	.phone_navBtn {
+		display: block;
+		width: 26px;
+		height: 26px;
+		background: url(/Public/home/img/nav_btn.png) no-repeat center center;
+		background-size: 100% auto;
+		position: absolute;
+		right: 20px;
+		top: 17px;
+		z-index: 10;
+	}
+    .search_box {
+        display: none;
+    }
+    .banner {
+        min-height: auto !important;
+    }
+    .banner .b_img {
+        width: 100%;
+        min-width: 100%;
+    }
+    .s_pic {
+        display: none;
+    }
+    .h1, h1 {
+        font-size: 24px;
+    }
+    section {
+        width: auto;
+        height: auto;
+        margin: 20px auto;
+        overflow: hidden;
+    }
+    .media {
+        border-radius: 2px;
+        margin: 0 15px 20px;
+    }
+    .pull-left {
+        width: 30%;
+    }
+    .media .media-object {
+        width: 100%;
+        height: 200px;
+    }
+    .media-body {
+        width: 48%;
+        height: 200px;
+        margin: 0px 1%;
+    }
+    .interactive {
+        width: 20%;
+        height: 200px;
+    }
+    .media-body p {
+        line-height: 2em;
+        height: 4em;
+        overflow: hidden;
+        font-size: 12px;
+    }
+    .media_text {
+        height: auto;
+        margin-bottom: 5px;
+    }
+    .media_bottom span {
+        font-size: 12px;
+        width: 30%;
+        max-width: 30%;
+    }
+    .price {
+        margin: 15px 10px 10px 10px;
+    }
+    .but_bm {
+        padding: 0 6px;
+        margin: 5px auto;
+    }
+    .user_tx {
+        margin-top: 5px;
+    }
+    .user_tx span {
+        line-height: 1.5em;
+    }
+    .zty_box {
+        margin: 0 15px;
+    }
+    footer {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        margin-top: 40px;
+    }
+    .foot {
+        width: auto;
+        height: auto;
+    }
+	
+}
 
+@media (min-width: 1200px){
+    .container {
+        width: 1200px;
+    }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .interactive {
+        display: none;
+    }
+    .pull-left {
+        width: 40%;
+    }
+    .media .media-object {
+        height: auto;
+    }
+    .media-body {
+        width: 58%;
+        height: auto;
+    }
+    .media-heading {
+        margin: 0px auto;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #333;
+    }
+    .media-body p {
+        line-height: 1.5em;
+        height: 3em;
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+    .media_bottom {
+        display: none;
+    }
+    .media_xc {
+       font-size: 12px;
+    }
+    .zty_box li {
+        width: 48%;
+        height: auto;
+    }
+    .zty_items {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        border: 0;
+    }
+    .zty_items img {
+        width: 100%;
+        height: auto;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
+    .zty_items span {
+        height: 1.5em;
+        position: absolute;
+        left: 0px;
+        top: 0;
+        font-size: 12px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
 
 
 

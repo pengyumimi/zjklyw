@@ -22,18 +22,18 @@
 <body class="index">
    <include file="Index/header"/>	
 	<div class="main_box">
-	  <foreach name="result" item="vo">
+	  <foreach name="result['arr']" item="vo">
 		<section class="goods">
 			<div class="left goods_imgs">
 				<a href="article.html"> 
-					<img class="b_radius" src="__PUBLIC__/home/img/t_4.jpg" alt="媒体对象"> 
+					<img class="b_radius" src="{$vo.thumb}" > 
 				</a>
 			</div>
         <div class="right goods_price">
 			
 				<h1>{$vo.title}</h1>
 				
-				<p class="ellipsis">22张北县是离京津地区最近的高原地区，夏天气候凉爽是避暑胜地。，平均海拔地处锡林郭勒大草原南缘。经过20年的建设与精心打造，已发展成为距京津最近、规模最大、景色最美、档次最高的国家4A级草原旅游度假景区。荣获了中国最佳原生态旅游目的地、河北最美三十景等多项殊荣。</p>		
+				<p class="ellipsis">{$vo.description}</p>		
 				<div style="overflow:hidden;">
                     <div class="price">价格:<span>￥<b id="single_price">{$vo.price}</b></span>起/人</div>
 				<div class="cantuan">参团人数:<span>{$vo.ctrs}</span>人</div>
@@ -62,10 +62,10 @@
 			<div class="article_ad" style="display: none;">广告</div>
 			
 			<!--左侧列表-->
-					
+				<?php $vo=$result['content']; ?>	
 			<div class="common_list left">
 				<div class="article">
-		        <volist name="result" id="vo">
+		       
 					<h1>{$vo.title}</h1>
 					
 					<div class="article_icons">
@@ -85,9 +85,9 @@
 						$(".article_content").html({$vo.content});
 					</script>
 					<div class="article_content">
-						
+						{$vo.content}
 					</div>
-					</volist>
+					
 				</div>
 			</div>
 			
@@ -133,8 +133,14 @@
 			<!--/右侧评论-->
 		</section>
 		
+		<!--评论-->
 		<section>
-			评论模块
+			<div id="pinglun_box">
+			<!-- UY BEGIN -->
+			<div id="uyan_frame"></div>
+			<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2131776"></script>
+			<!-- UY END -->
+			</div>
 		</section>
 	</div>
 	<footer>

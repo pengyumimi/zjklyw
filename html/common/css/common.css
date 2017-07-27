@@ -448,7 +448,7 @@ footer{
 	background-color: #323232;
 	padding: 20px;
 	border-top: 4px solid #0A84C1;
-	margin-top: 150px;
+	margin-top: 100px;
 }
 
 .foot{
@@ -495,3 +495,8 @@ footer{
 .ewm_box ul li:hover  img{
 	display: block;
 }
+
+/* 友情链接 */
+.yq_link{padding: 5px 10px;border-radius: 4px; border:1px dashed #d2d2d2}
+.yq_link li{padding: 10px 0;text-align: center}
+.yq_link li a{color: #fff;padding: 5px 10px;}

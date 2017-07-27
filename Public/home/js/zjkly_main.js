@@ -36,3 +36,25 @@ $(".go_top").on("click",function(){
 	$('body,html').animate({ scrollTop: 0 }, speed);
 	return false;
 });
+
+//check login info
+var username = localStorage.getItem('username');
+if( username == "" || username == null){
+	$(".signin_btn,.reg_btn,.qq_btn,.weixin_btn").show();
+}else{
+	$(".signin_btn,.reg_btn,.qq_btn,.weixin_btn").hide();
+	$(".username").css("display","inline-block");
+	$(".username a").html(username);
+	//alert(username);
+	$(".hygl_username").html(username);
+}
+
+//响应式导航切换按钮
+$(".phone_navBtn").click(function(event){
+	$(".nav_l").toggle();
+	return false;
+});
+//设置点击空白处隐藏导航栏
+$(document).click(function(event) { 
+    $(".nav_l").hide();
+});  

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="07daf763-c78f-4a37-8499-516f97fde13c" name="默认的" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/common~runtime.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bdm232505697_db.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/member.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/58189b9783bd38781d64849e3e43b1cf.php" afterPath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/58189b9783bd38781d64849e3e43b1cf.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/82399d823447999b062eff520fd3180b.php" afterPath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/82399d823447999b062eff520fd3180b.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/a533935eba1e269b90c5d066747e12d1.php" afterPath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/a533935eba1e269b90c5d066747e12d1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/af5eb9f0bdc8eb29f160e585e8749fd0.php" afterPath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/af5eb9f0bdc8eb29f160e585e8749fd0.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/b8f40ff94fedc98b42a92d9dd803d838.php" afterPath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/b8f40ff94fedc98b42a92d9dd803d838.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="$PROJECT_DIR$/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Admin/View/Login/index.html" afterPath="$PROJECT_DIR$/Azjklynew/Admin/View/Login/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Common/Conf/db.php" afterPath="$PROJECT_DIR$/Azjklynew/Common/Conf/db.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Home/Controller/AlljdController.class.php" afterPath="$PROJECT_DIR$/Azjklynew/Home/Controller/AlljdController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Home/Controller/OrderController.class.php" afterPath="$PROJECT_DIR$/Azjklynew/Home/Controller/OrderController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Home/View/Alljd/list_jdql.html" afterPath="$PROJECT_DIR$/Azjklynew/Home/View/Alljd/list_jdql.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Home/View/Index/header.html" afterPath="$PROJECT_DIR$/Azjklynew/Home/View/Index/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Home/View/Index/index.html" afterPath="$PROJECT_DIR$/Azjklynew/Home/View/Index/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Home/View/Order/index.html" afterPath="$PROJECT_DIR$/Azjklynew/Home/View/Order/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Admin/a4444f8443f657847f4af4106004da36.php" afterPath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Admin/a4444f8443f657847f4af4106004da36.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/1d7f21ab5a0c095fc27e717d8065b7f4.php" afterPath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/1d7f21ab5a0c095fc27e717d8065b7f4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/4492db612ceb530f8f37e6d72b580d00.php" afterPath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/4492db612ceb530f8f37e6d72b580d00.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/469497d4d9eed61c1215a2fda64f78ad.php" afterPath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/469497d4d9eed61c1215a2fda64f78ad.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/4dc814fc65e2f7fd5f1c32999181acd5.php" afterPath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/4dc814fc65e2f7fd5f1c32999181acd5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/79283f433f47159f61bbe00d9f63da11.php" afterPath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/79283f433f47159f61bbe00d9f63da11.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/7b54c39a3a6879160c61b22a5bb9f901.php" afterPath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/7b54c39a3a6879160c61b22a5bb9f901.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/829a493917dc05ac1b688a0118d62ce7.php" afterPath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/829a493917dc05ac1b688a0118d62ce7.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/94482442694d4747ae5f658be689c0b8.php" afterPath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/94482442694d4747ae5f658be689c0b8.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/a2591f196eaa2594036088392e367792.php" afterPath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/a2591f196eaa2594036088392e367792.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/b9512920b57a5ab33bd8a1dbfffe56b5.php" afterPath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/b9512920b57a5ab33bd8a1dbfffe56b5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/ed6a38b9ec17c8276936287af3e83d30.php" afterPath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/ed6a38b9ec17c8276936287af3e83d30.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/f867bff6e8ec98512bfc666f86cdf326.php" afterPath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/f867bff6e8ec98512bfc666f86cdf326.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_06_08.log" afterPath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_06_08.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/home/common/css/common.css" afterPath="$PROJECT_DIR$/Public/home/common/css/common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/home/css/zjkly_main.css" afterPath="$PROJECT_DIR$/Public/home/css/zjkly_main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/common/css/common.css" afterPath="$PROJECT_DIR$/html/common/css/common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index.html" afterPath="$PROJECT_DIR$/html/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/list_jdql.html" afterPath="$PROJECT_DIR$/html/list_jdql.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+    </list>
+    <ignored path="zjklyw.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="zjklyw" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Azjklynew/Home/View/Index/header.html" />
+        <option value="$PROJECT_DIR$/Public/home/css/zjkly_main.css" />
+        <option value="$PROJECT_DIR$/Azjklynew/Home/View/Index/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="307" />
+    <option name="y" value="34" />
+    <option name="width" value="2162" />
+    <option name="height" value="1416" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="添加" />
+    <OptionsSetting value="true" id="移除" />
+    <OptionsSetting value="true" id="签出" />
+    <OptionsSetting value="true" id="更新" />
+    <OptionsSetting value="true" id="状态" />
+    <OptionsSetting value="true" id="编辑" />
+    <ConfirmationsSetting value="0" id="添加" />
+    <ConfirmationsSetting value="0" id="移除" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zjklyw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="D:/www/ssosch" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07daf763-c78f-4a37-8499-516f97fde13c" name="默认的" comment="" />
+      <created>1498751819340</created>
+      <option name="number" value="Default" />
+      <updated>1498751819340</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="307" y="34" width="2162" height="1416" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15937203" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24976213" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Public/home/common/bootstrap_3.3.5/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6026" column="13" selection-start-line="6026" selection-start-column="13" selection-end-line="6026" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Azjklynew/Home/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Azjklynew/Home/View/Index/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="144" selection-start-line="8" selection-start-column="144" selection-end-line="8" selection-end-column="144" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/home/css/zjkly_main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="546" column="17" selection-start-line="546" selection-start-column="17" selection-end-line="546" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/home/common/bootstrap_3.3.5/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6026" column="13" selection-start-line="6026" selection-start-column="13" selection-end-line="6026" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Azjklynew/Home/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.085995086">
+          <caret line="206" column="20" selection-start-line="206" selection-start-column="20" selection-end-line="206" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Azjklynew/Home/View/Index/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16380017">
+          <caret line="8" column="144" selection-start-line="8" selection-start-column="144" selection-end-line="8" selection-end-column="144" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/home/css/zjkly_main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02047502">
+          <caret line="546" column="17" selection-start-line="546" selection-start-column="17" selection-end-line="546" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+[ 2017-06-12T02:47:49+08:00 ] 220.181.125.4 /index.php?c=hotel=cat&id=1
+ERR: 无法加载控制器:Hotel=cat
+
+[ 2017-06-12T05:09:57+08:00 ] 220.181.108.116 /index.php?c=hotel=cat&id=1
+ERR: 无法加载控制器:Hotel=cat
+
+[ 2017-06-12T15:19:42+08:00 ] 66.249.64.23 /index.php?c=hotel=cat&id=1
+ERR: 无法加载控制器:Hotel=cat
+
+[ 2017-06-12T15:25:07+08:00 ] 66.249.64.24 /index.php?c=alljd=cat&id=1
+ERR: 无法加载控制器:Alljd=cat
+
+[ 2017-06-12T16:41:42+08:00 ] 210.140.82.234 /index.php?c=alljd=cat&id=1
+ERR: 无法加载控制器:Alljd=cat
+
+[ 2017-06-12T17:47:35+08:00 ] 42.156.136.43 /index.php?c=hotel=cat&id=1
+ERR: 无法加载控制器:Hotel=cat
+

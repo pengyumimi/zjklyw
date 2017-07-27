@@ -21,7 +21,6 @@
 <body class="index">
     <?php
 $config=D("Basic")->select(); $navs=D("Menu")->getBarMenus(); ?>
-
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -45,30 +44,30 @@ $config=D("Basic")->select(); $navs=D("Menu")->getBarMenus(); ?>
 <body class="index">
 
 <header>
-<nav>
-			<img src="<?php echo (IMG_URL); ?>logo.png" class="logo left"/>
-			<ul class="nav_l left">
-				<li><a href="/" <?php if($result['catId'] == 0): ?>class="active"<?php endif; ?>>首页</a></li>
-                                <?php if(is_array($navs)): foreach($navs as $key=>$vo): ?><li><a  href="/index.php?c=cat&id=<?php echo ($vo["menu_id"]); ?>" <?php if($vo['menu_id'] == $result['catId']): ?>class="active"<?php endif; ?>><?php echo ($vo["name"]); ?></a></li><?php endforeach; endif; ?>
-       
-                            <li><a href="/index.php?c=hotel" <?php if($result['catId'] == 1): ?>class="active"<?php endif; ?>>客栈</a></li>
-                             <li><a href="/index.php?c=alljd" <?php if($result['catId'] == 1): ?>class="active"<?php endif; ?>> 景点全览</a></li>
-							</ul>
-			
-			<ul class="nav_r right">
-                         <?php
+	<nav>
+		<a href="/"><img src="<?php echo (IMG_URL); ?>/logo.png" class="logo left"/></a>
+		<ul class="nav_l left">
+			<li><a href="/" >首页</a></li>
+			<?php if(is_array($navs)): foreach($navs as $key=>$vo): ?><li><a href="/index.php?c=cat&id=<?php echo ($vo["menu_id"]); ?>"><?php echo ($vo["name"]); ?></a></li><?php endforeach; endif; ?>
+			<li><a href="/index.php?c=hotel" <?php if($result['catId'] == 1): ?>class="active"<?php endif; ?>>客栈</a></li>
+			<li><a href="/index.php?c=alljd" <?php if($result['catId'] == 1): ?>class="active"<?php endif; ?>>景点全览</a></li>
+		</ul>
+
+		<ul class="nav_r right">
+			<?php
  if (homeLoginUsername()){ ?>
-                        <a href=""><?php echo homeLoginUsername()?></a>><a href="<?php echo U('member/loginout');?>">退出</a>
-                         <?php
+			<a href=""><?php echo homeLoginUsername()?></a>><a href="<?php echo U('member/loginout');?>">退出</a>
+			<?php
  }else{ ?>
-                            <a href="<?php echo U( 'member/index');?>">登录</a>
-                        <?php
+			<a href="http://www.zjkly.com.cn/Public/home/signin.html">登录</a>
+			<a href="http://www.zjkly.com.cn/Public/home/reg.html">注册</a></li>
+			<li><a href="login.html"><i class="fa fa-qq"></i></a></li>
+			<li><a href="login.html"><i class="fa fa-weixin"></i></a></li>
+			<?php
  } ?>
-			  <a href="<?php echo U( 'member/regist');?>">注册</a></li>
-				<li><a href="login.html"><i class="fa fa-qq"></i></a></li>
-				<li><a href="login.html"><i class="fa fa-weixin"></i></a></li>
-			</ul>
-		</nav>
+			
+		</ul>
+	</nav>
 </header>
 
 

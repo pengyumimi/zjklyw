@@ -1,9 +1,10 @@
 <?php if (!defined('THINK_PATH')) exit();?>	<?php
 $config=D("Basic")->select(); $navs=D("Menu")->getBarMenus(); ?>
-
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <!--默认用ie8的最高内核进行渲染，如果有谷歌的gcf，则用谷歌的内核渲染-->
+    <meta name="renderer" content="webkit"><!--默认用360极速模式渲染-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/><!--默认以百分百比例打开-->
 	<title><?php echo ($config["title"]); ?></title>
 	<meta name="description" content="<?php echo ($config["description"]); ?>"/>
 	<meta name="keywords" content="<?php echo ($config["keywords"]); ?>"/>
@@ -19,32 +20,38 @@ $config=D("Basic")->select(); $navs=D("Menu")->getBarMenus(); ?>
         background-color: #0090ff;
         color: #fff !important;
     } 
+	
     </style>
 </head> 
 <body class="index">
 
 <header>
 	<nav>
-		<img src="<?php echo (IMG_URL); ?>logo.png" class="logo left"/>
+		<a href="/"><img src="<?php echo (IMG_URL); ?>/logo.png" class="logo left"/></a>
+		<span class="phone_navBtn"></span>
 		<ul class="nav_l left">
-			<li><a href="/" <?php if($result['catId'] == 0): ?>class="active"<?php endif; ?>>首页</a></li>
-			<?php if(is_array($navs)): foreach($navs as $key=>$vo): ?><li><a href="/index.php?c=cat&id=<?php echo ($vo["menu_id"]); ?>" <?php if($vo['menu_id'] == $result['catId']): ?>class="active"<?php endif; ?>><?php echo ($vo["name"]); ?></a></li><?php endforeach; endif; ?>
+			<li><a href="/" >首页</a></li>
+			<?php if(is_array($navs)): foreach($navs as $key=>$vo): ?><li><a href="/index.php?c=cat&id=<?php echo ($vo["menu_id"]); ?>"><?php echo ($vo["name"]); ?></a></li><?php endforeach; endif; ?>
 			<li><a href="/index.php?c=hotel" <?php if($result['catId'] == 1): ?>class="active"<?php endif; ?>>客栈</a></li>
-			<li><a href="/index.php?c=alljd" <?php if($result['catId'] == 1): ?>class="active"<?php endif; ?>> 景点全览</a></li>
-			</ul>
+			<li><a href="/index.php?c=alljd" <?php if($result['catId'] == 1): ?>class="active"<?php endif; ?>>景点全览</a></li>
+			<li><a href="http://www.beijing2022.cn/">奥运</a></li>
+			<li><a href="old/">回到旧版</a></li>
+		</ul>
 
-			<ul class="nav_r right">
+		<ul class="nav_r right">
 			<?php
  if (homeLoginUsername()){ ?>
 			<a href=""><?php echo homeLoginUsername()?></a>><a href="<?php echo U('member/loginout');?>">退出</a>
 			<?php
  }else{ ?>
-			<a href="<?php echo U( 'member/index');?>">登录</a>
+			<li class="signin_btn"><a href="http://www.zjkly.com.cn/Public/home/signin.html">登录</a></li>
+			<li class="reg_btn"><a href="http://www.zjkly.com.cn/Public/home/reg.html">注册</a></li>
+			<li class="qq_btn"><a href="#"><i class="fa fa-qq"></i></a></li>
+			<li class="weixin_btn"><a href="#"><i class="fa fa-weixin"></i></a></li>
+			<li class="username"><a href="Public/home/useradmin.html"></a></li>
 			<?php
  } ?>
-			<a href="<?php echo U( 'member/regist');?>">注册</a></li>
-			<li><a href="login.html"><i class="fa fa-qq"></i></a></li>
-			<li><a href="login.html"><i class="fa fa-weixin"></i></a></li>
+			
 		</ul>
 	</nav>
 </header>
@@ -133,7 +140,7 @@ $config=D("Basic")->select(); $navs=D("Menu")->getBarMenus(); ?>
 	 			<div class="media_xc">行程概览 : <?php echo ($vo["keywords"]); ?></div>
 	 			<div class="media_xc">活动时间 : <?php echo ($vo["hdtime"]); ?></div>
 	 			<div class="media_bottom">
-	 				<span><i class="fa fa-eye"></i><i news-id="<?php echo ($vo["news_id"]); ?>" class="news_count node-<?php echo ($vo["news_id"]); ?>">&nbsp;<?php echo ($vo["count"]); ?></i></span><cite class="media_line"></cite>
+	 				<span><i class="fa fa-eye"></i>&nbsp;<a news-id="<?php echo ($vo["news_id"]); ?>" class="news_count node-<?php echo ($vo["news_id"]); ?>"></a></span><cite class="media_line"></cite>
 	 				<span><i class="fa fa-comment"></i>&nbsp;122</span><cite class="media_line"></cite>
 	 				<span><a title="<?php echo ($vo["bhxm"]); ?>"><i class="fa fa-plus-square"></i>&nbsp;包含项目</a></span><cite class="media_line"></cite>
 	 				<span><a title="<?php echo ($vo["bbhxm"]); ?>"><i class="fa fa-minus-square"></i>&nbsp;不包含项目</a></span>
@@ -165,7 +172,7 @@ $config=D("Basic")->select(); $navs=D("Menu")->getBarMenus(); ?>
 	 			<div class="media_xc">行程概览 : <?php echo ($vo["keywords"]); ?></div>
 	 			<div class="media_xc">活动时间 : <?php echo ($vo["hdtime"]); ?></div>
 	 			<div class="media_bottom backc_1">
-	 				<span><i class="fa fa-eye"></i><i news-id="<?php echo ($vo["news_id"]); ?>" class="news_count node-<?php echo ($vo["news_id"]); ?>">&nbsp;<?php echo ($vo["count"]); ?></i></span><cite class="media_line"></cite>
+	 				<span><i class="fa fa-eye"></i>&nbsp;<a news-id="<?php echo ($vo["news_id"]); ?>" class="news_count node-<?php echo ($vo["news_id"]); ?>"></a></span><cite class="media_line"></cite>
 	 				<span><i class="fa fa-comment"></i>&nbsp;122</span><cite class="media_line"></cite>
 	 				<span><a title="<?php echo ($vo["bhxm"]); ?>"><i class="fa fa-plus-square"></i>&nbsp;包含项目</a></span><cite class="media_line"></cite>
 	 				<span><a title="<?php echo ($vo["bbhxm"]); ?>"><i class="fa fa-minus-square"></i>&nbsp;不包含项目</a></span>
@@ -258,11 +265,39 @@ $config=D("Basic")->select(); $navs=D("Menu")->getBarMenus(); ?>
 			</ul>
 		</section>
 	</div>
+	<div class="container yq_link">
+        <ul class="row">
+            <!--<li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">蘑菇庄园</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">张北网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">携程网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">艺龙酒店</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">蘑菇庄园</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">张北网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">携程网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">艺龙酒店</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">蘑菇庄园</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">张北网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">携程网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">艺龙酒店</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">蘑菇庄园</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">张北网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">携程网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">艺龙酒店</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">蘑菇庄园</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">张北网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">携程网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">艺龙酒店</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">蘑菇庄园</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">张北网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">携程网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">艺龙酒店</a></li>-->
+        </ul>
+    </div>
 	<footer>
 		<div class="foot">
 			<p>使用说明|意见反馈|免责条款|社区代理</p>
 			<p>ICP备案编号：京ICP备14051536号-1 版权所有：张家口旅游网　建议您使用1366*768分辨率，ie8以上浏览器浏览本站</p>
-		</foot>
+		</div>
 	</footer>
 
 	

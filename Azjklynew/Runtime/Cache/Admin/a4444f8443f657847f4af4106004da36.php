@@ -28,8 +28,8 @@
 <body>
 <style>
   .s_center {
-    margin-left: auto;
-    margin-right: auto;
+	float: none;
+	margin: 0 auto;
   }
 </style>
 <div class="s_center container col-lg-6 ">

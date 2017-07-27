@@ -10,18 +10,16 @@ class OrderController extends CommonController{
         if(!$id || $id<0) {
             return $this->error("ID不合法");
         }
-
-     $arr =  D("News")->find($id);
-    if(!$arr || $arr['status'] != 1) {
-         return $this->error("ID不存在或者资讯被关闭");
-        }
-  
+     $arr =  M("News")->where('news_id="'.$id.'"')->select();
+    // if(!$arr || $arr['status'] != 1) {
+    //      return $this->error("ID不存在或者资讯被关闭");
+    //     }
     $content = D("NewsContent")->find($id);
-   // dump($content);die();
-    $this->assign('result', array(
+    $news['content'] = htmlspecialchars_decode($content['content']);
+      $this->assign('result', array(
       
            'arr' =>  $arr,
-           'content' => $content,
+           'content' => $news,
      ));
 
    //$this->assign('arr',1325);

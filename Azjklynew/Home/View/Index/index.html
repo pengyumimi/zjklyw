@@ -87,7 +87,7 @@
 	 			<div class="media_xc">行程概览 : {$vo.keywords}</div>
 	 			<div class="media_xc">活动时间 : {$vo.hdtime}</div>
 	 			<div class="media_bottom">
-	 				<span><i class="fa fa-eye"></i><i news-id="{$vo.news_id}" class="news_count node-{$vo.news_id}">&nbsp;{$vo.count}</i></span><cite class="media_line"></cite>
+	 				<span><i class="fa fa-eye"></i>&nbsp;<a news-id="{$vo.news_id}" class="news_count node-{$vo.news_id}"></a></span><cite class="media_line"></cite>
 	 				<span><i class="fa fa-comment"></i>&nbsp;122</span><cite class="media_line"></cite>
 	 				<span><a title="{$vo.bhxm}"><i class="fa fa-plus-square"></i>&nbsp;包含项目</a></span><cite class="media_line"></cite>
 	 				<span><a title="{$vo.bbhxm}"><i class="fa fa-minus-square"></i>&nbsp;不包含项目</a></span>
@@ -122,7 +122,7 @@
 	 			<div class="media_xc">行程概览 : {$vo.keywords}</div>
 	 			<div class="media_xc">活动时间 : {$vo.hdtime}</div>
 	 			<div class="media_bottom backc_1">
-	 				<span><i class="fa fa-eye"></i><i news-id="{$vo.news_id}" class="news_count node-{$vo.news_id}">&nbsp;{$vo.count}</i></span><cite class="media_line"></cite>
+	 				<span><i class="fa fa-eye"></i>&nbsp;<a news-id="{$vo.news_id}" class="news_count node-{$vo.news_id}"></a></span><cite class="media_line"></cite>
 	 				<span><i class="fa fa-comment"></i>&nbsp;122</span><cite class="media_line"></cite>
 	 				<span><a title="{$vo.bhxm}"><i class="fa fa-plus-square"></i>&nbsp;包含项目</a></span><cite class="media_line"></cite>
 	 				<span><a title="{$vo.bbhxm}"><i class="fa fa-minus-square"></i>&nbsp;不包含项目</a></span>
@@ -216,11 +216,39 @@
 			</ul>
 		</section>
 	</div>
+	<div class="container yq_link">
+        <ul class="row">
+            <!--<li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">蘑菇庄园</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">张北网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">携程网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">艺龙酒店</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">蘑菇庄园</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">张北网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">携程网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">艺龙酒店</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">蘑菇庄园</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">张北网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">携程网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">艺龙酒店</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">蘑菇庄园</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">张北网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">携程网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">艺龙酒店</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">蘑菇庄园</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">张北网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">携程网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">艺龙酒店</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">蘑菇庄园</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">张北网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">携程网</a></li>
+            <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">艺龙酒店</a></li>-->
+        </ul>
+    </div>
 	<footer>
 		<div class="foot">
 			<p>使用说明|意见反馈|免责条款|社区代理</p>
 			<p>ICP备案编号：京ICP备14051536号-1 版权所有：张家口旅游网　建议您使用1366*768分辨率，ie8以上浏览器浏览本站</p>
-		</foot>
+		</div>
 	</footer>
 
 	

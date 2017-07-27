@@ -21,7 +21,7 @@ define("H_URL","/Home/View/Index/");
 define("JS_URL","/Public/home/js/");
 
 // 开启调试模式  部署阶段注释或者设为false
-define('APP_DEBUG',false);
+define('APP_DEBUG',true);
 
 // 定义应用目录
 define('APP_PATH','./Azjklynew/');

@@ -22,10 +22,11 @@
 <header>
  <?php
 $config=D("Basic")->select(); $navs=D("Menu")->getBarMenus(); ?>
-
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <!--默认用ie8的最高内核进行渲染，如果有谷歌的gcf，则用谷歌的内核渲染-->
+    <meta name="renderer" content="webkit"><!--默认用360极速模式渲染-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/><!--默认以百分百比例打开-->
 	<title><?php echo ($config["title"]); ?></title>
 	<meta name="description" content="<?php echo ($config["description"]); ?>"/>
 	<meta name="keywords" content="<?php echo ($config["keywords"]); ?>"/>
@@ -41,33 +42,38 @@ $config=D("Basic")->select(); $navs=D("Menu")->getBarMenus(); ?>
         background-color: #0090ff;
         color: #fff !important;
     } 
+	
     </style>
 </head> 
 <body class="index">
 
 <header>
 	<nav>
-		<img src="<?php echo (IMG_URL); ?>logo.png" class="logo left"/>
+		<a href="/"><img src="<?php echo (IMG_URL); ?>/logo.png" class="logo left"/></a>
+		<span class="phone_navBtn"></span>
 		<ul class="nav_l left">
-			<li><a href="/" <?php if($result['catId'] == 0): ?>class="active"<?php endif; ?>>首页</a></li>
-			<?php if(is_array($navs)): foreach($navs as $key=>$vo): ?><li><a href="/index.php?c=cat&id=<?php echo ($vo["menu_id"]); ?>" <?php if($vo['menu_id'] == $result['catId']): ?>class="active"<?php endif; ?>><?php echo ($vo["name"]); ?></a></li>
+			<li><a href="/" >首页</a></li>
+			<?php if(is_array($navs)): foreach($navs as $key=>$vo): ?><li><a href="/index.php?c=cat&id=<?php echo ($vo["menu_id"]); ?>"><?php echo ($vo["name"]); ?></a></li><?php endforeach; endif; ?>
 			<li><a href="/index.php?c=hotel" <?php if($result['catId'] == 1): ?>class="active"<?php endif; ?>>客栈</a></li>
-			<li><a href="/index.php?c=alljd" <?php if($result['catId'] == 1): ?>class="active"<?php endif; ?>> 景点全览</a></li><?php endforeach; endif; ?>
-			
-			</ul>
+			<li><a href="/index.php?c=alljd" <?php if($result['catId'] == 1): ?>class="active"<?php endif; ?>>景点全览</a></li>
+			<li><a href="http://www.beijing2022.cn/">奥运</a></li>
+			<li><a href="old/">回到旧版</a></li>
+		</ul>
 
-			<ul class="nav_r right">
+		<ul class="nav_r right">
 			<?php
  if (homeLoginUsername()){ ?>
 			<a href=""><?php echo homeLoginUsername()?></a>><a href="<?php echo U('member/loginout');?>">退出</a>
 			<?php
  }else{ ?>
-			<a href="<?php echo U( 'member/index');?>">登录</a>
+			<li class="signin_btn"><a href="http://www.zjkly.com.cn/Public/home/signin.html">登录</a></li>
+			<li class="reg_btn"><a href="http://www.zjkly.com.cn/Public/home/reg.html">注册</a></li>
+			<li class="qq_btn"><a href="#"><i class="fa fa-qq"></i></a></li>
+			<li class="weixin_btn"><a href="#"><i class="fa fa-weixin"></i></a></li>
+			<li class="username"><a href="Public/home/useradmin.html"></a></li>
 			<?php
  } ?>
-			<a href="<?php echo U( 'member/regist');?>">注册</a></li>
-			<li><a href="login.html"><i class="fa fa-qq"></i></a></li>
-			<li><a href="login.html"><i class="fa fa-weixin"></i></a></li>
+			
 		</ul>
 	</nav>
 </header>

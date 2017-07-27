@@ -22,7 +22,6 @@
 <body class="index">
    <?php
 $config=D("Basic")->select(); $navs=D("Menu")->getBarMenus(); ?>
-
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -46,46 +45,46 @@ $config=D("Basic")->select(); $navs=D("Menu")->getBarMenus(); ?>
 <body class="index">
 
 <header>
-<nav>
-			<img src="<?php echo (IMG_URL); ?>logo.png" class="logo left"/>
-			<ul class="nav_l left">
-				<li><a href="/" <?php if($result['catId'] == 0): ?>class="active"<?php endif; ?>>首页</a></li>
-                                <?php if(is_array($navs)): foreach($navs as $key=>$vo): ?><li><a  href="/index.php?c=cat&id=<?php echo ($vo["menu_id"]); ?>" <?php if($vo['menu_id'] == $result['catId']): ?>class="active"<?php endif; ?>><?php echo ($vo["name"]); ?></a></li><?php endforeach; endif; ?>
-       
-                            <li><a href="/index.php?c=hotel" <?php if($result['catId'] == 1): ?>class="active"<?php endif; ?>>客栈</a></li>
-                             <li><a href="/index.php?c=alljd" <?php if($result['catId'] == 1): ?>class="active"<?php endif; ?>> 景点全览</a></li>
-							</ul>
-			
-			<ul class="nav_r right">
-                         <?php
+	<nav>
+		<a href="/"><img src="<?php echo (IMG_URL); ?>/logo.png" class="logo left"/></a>
+		<ul class="nav_l left">
+			<li><a href="/" >首页</a></li>
+			<?php if(is_array($navs)): foreach($navs as $key=>$vo): ?><li><a href="/index.php?c=cat&id=<?php echo ($vo["menu_id"]); ?>"><?php echo ($vo["name"]); ?></a></li><?php endforeach; endif; ?>
+			<li><a href="/index.php?c=hotel" <?php if($result['catId'] == 1): ?>class="active"<?php endif; ?>>客栈</a></li>
+			<li><a href="/index.php?c=alljd" <?php if($result['catId'] == 1): ?>class="active"<?php endif; ?>>景点全览</a></li>
+		</ul>
+
+		<ul class="nav_r right">
+			<?php
  if (homeLoginUsername()){ ?>
-                        <a href=""><?php echo homeLoginUsername()?></a>><a href="<?php echo U('member/loginout');?>">退出</a>
-                         <?php
+			<a href=""><?php echo homeLoginUsername()?></a>><a href="<?php echo U('member/loginout');?>">退出</a>
+			<?php
  }else{ ?>
-                            <a href="<?php echo U( 'member/index');?>">登录</a>
-                        <?php
+			<a href="http://www.zjkly.com.cn/Public/home/signin.html">登录</a>
+			<a href="http://www.zjkly.com.cn/Public/home/reg.html">注册</a></li>
+			<li><a href="login.html"><i class="fa fa-qq"></i></a></li>
+			<li><a href="login.html"><i class="fa fa-weixin"></i></a></li>
+			<?php
  } ?>
-			  <a href="<?php echo U( 'member/regist');?>">注册</a></li>
-				<li><a href="login.html"><i class="fa fa-qq"></i></a></li>
-				<li><a href="login.html"><i class="fa fa-weixin"></i></a></li>
-			</ul>
-		</nav>
+			
+		</ul>
+	</nav>
 </header>
 
 
 	
 	<div class="main_box">
-	  <?php if(is_array($result)): foreach($result as $key=>$vo): ?><section class="goods">
+	  <?php if(is_array($result['arr'])): foreach($result['arr'] as $key=>$vo): ?><section class="goods">
 			<div class="left goods_imgs">
 				<a href="article.html"> 
-					<img class="b_radius" src="/Public/home/img/t_4.jpg" alt="媒体对象"> 
+					<img class="b_radius" src="<?php echo ($vo["thumb"]); ?>" > 
 				</a>
 			</div>
         <div class="right goods_price">
 			
 				<h1><?php echo ($vo["title"]); ?></h1>
 				
-				<p class="ellipsis">22张北县是离京津地区最近的高原地区，夏天气候凉爽是避暑胜地。，平均海拔地处锡林郭勒大草原南缘。经过20年的建设与精心打造，已发展成为距京津最近、规模最大、景色最美、档次最高的国家4A级草原旅游度假景区。荣获了中国最佳原生态旅游目的地、河北最美三十景等多项殊荣。</p>		
+				<p class="ellipsis"><?php echo ($vo["description"]); ?></p>		
 				<div style="overflow:hidden;">
                     <div class="price">价格:<span>￥<b id="single_price"><?php echo ($vo["price"]); ?></b></span>起/人</div>
 				<div class="cantuan">参团人数:<span><?php echo ($vo["ctrs"]); ?></span>人</div>
@@ -113,10 +112,11 @@ $config=D("Basic")->select(); $navs=D("Menu")->getBarMenus(); ?>
 			<div class="article_ad" style="display: none;">广告</div>
 			
 			<!--左侧列表-->
-					
+				<?php $vo=$result['content']; ?>	
 			<div class="common_list left">
 				<div class="article">
-		        <?php if(is_array($result)): $i = 0; $__LIST__ = $result;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><h1><?php echo ($vo["title"]); ?></h1>
+		       
+					<h1><?php echo ($vo["title"]); ?></h1>
 					
 					<div class="article_icons">
 						<span><i class="fa fa-eye m_leftright5"></i>浏览量&nbsp;<i>/</i>&nbsp;2123</span>
@@ -135,8 +135,9 @@ $config=D("Basic")->select(); $navs=D("Menu")->getBarMenus(); ?>
 						$(".article_content").html(<?php echo ($vo["content"]); ?>);
 					</script>
 					<div class="article_content">
-						
-					</div><?php endforeach; endif; else: echo "" ;endif; ?>
+						<?php echo ($vo["content"]); ?>
+					</div>
+					
 				</div>
 			</div>
 			
@@ -182,8 +183,14 @@ $config=D("Basic")->select(); $navs=D("Menu")->getBarMenus(); ?>
 			<!--/右侧评论-->
 		</section>
 		
+		<!--评论-->
 		<section>
-			评论模块
+			<div id="pinglun_box">
+			<!-- UY BEGIN -->
+			<div id="uyan_frame"></div>
+			<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2131776"></script>
+			<!-- UY END -->
+			</div>
 		</section>
 	</div>
 	<footer>

@@ -1,0 +1,2111 @@
+[ 2017-07-20T22:50:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012249s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0294s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0116s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0147s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001256s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.328538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.328704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019457s ]
+
+[ 2017-07-20T22:50:20+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('161','178','171','142')  [ RunTime:0.0013s ]
+
+[ 2017-07-20T22:50:23+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0009s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-07-20T22:50:23+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('161','178','171','142')  [ RunTime:0.0004s ]
+
+[ 2017-07-20T22:50:28+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2017-07-20T22:50:28+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('161','178','171','142')  [ RunTime:0.0004s ]
+
+[ 2017-07-20T22:52:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2017-07-20T22:52:10+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('161','178','171','142')  [ RunTime:0.0004s ]
+
+[ 2017-07-20T22:52:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0009s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-07-20T22:52:12+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('161','178','171','142')  [ RunTime:0.0003s ]
+
+[ 2017-07-20T22:52:14+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-07-20T22:52:14+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('161','178','171','142')  [ RunTime:0.0003s ]
+
+[ 2017-07-20T22:57:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2017-07-20T22:57:43+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('161','178','171','142')  [ RunTime:0.0003s ]
+
+[ 2017-07-20T22:57:44+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-07-20T22:57:44+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('161','178','171','142')  [ RunTime:0.0006s ]
+
+[ 2017-07-20T22:57:45+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0009s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2017-07-20T22:57:46+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('161','178','171','142')  [ RunTime:0.0004s ]
+
+[ 2017-07-20T22:57:47+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-07-20T22:57:47+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('161','178','171','142')  [ RunTime:0.0003s ]
+
+[ 2017-07-20T22:58:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0009s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2017-07-20T22:58:21+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('161','178','171','142')  [ RunTime:0.0004s ]
+
+[ 2017-07-20T22:58:23+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0009s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-07-20T22:58:23+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('161','178','171','142')  [ RunTime:0.0006s ]
+
+[ 2017-07-20T22:58:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0009s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-07-20T22:58:25+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('161','178','171','142')  [ RunTime:0.0005s ]
+
+[ 2017-07-20T22:58:33+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0017s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2017-07-20T22:58:33+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-07-20T22:58:33+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('161','178','171','142')  [ RunTime:0.0004s ]
+
+[ 2017-07-20T22:58:33+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0009s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-07-20T22:58:33+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0011s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2017-07-20T22:58:33+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('161','178','171','142')  [ RunTime:0.0004s ]
+
+[ 2017-07-20T22:58:33+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000580s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2017-07-20T22:58:33+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('161','178','171','142')  [ RunTime:0.0003s ]
+
+[ 2017-07-20T22:58:34+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('161','178','171','142')  [ RunTime:0.0004s ]
+
+[ 2017-07-20T22:59:37+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0009s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-07-20T22:59:37+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('161','178','171','142')  [ RunTime:0.0004s ]
+
+[ 2017-07-20T23:05:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2017-07-20T23:05:55+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('161','178','171','142')  [ RunTime:0.0005s ]
+
+[ 2017-07-20T23:05:57+08:00 ] 127.0.0.1 /index.php?c=detail&id=161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `cms_news` SET `count`='29' WHERE ( news_id=161 ) [ RunTime:0.0042s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001219s ]
+
+[ 2017-07-20T23:05:59+08:00 ] 127.0.0.1 /index.php?c=detail&id=161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `cms_news` SET `count`='30' WHERE ( news_id=161 ) [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2017-07-20T23:06:00+08:00 ] 127.0.0.1 /index.php?c=detail&id=161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `cms_news` SET `count`='31' WHERE ( news_id=161 ) [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2017-07-20T23:06:01+08:00 ] 127.0.0.1 /index.php?c=detail&id=161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `cms_news` SET `count`='32' WHERE ( news_id=161 ) [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2017-07-20T23:06:01+08:00 ] 127.0.0.1 /index.php?c=detail&id=161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `cms_news` SET `count`='33' WHERE ( news_id=161 ) [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2017-07-20T23:06:01+08:00 ] 127.0.0.1 /index.php?c=detail&id=161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `cms_news` SET `count`='34' WHERE ( news_id=161 ) [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-07-20T23:06:02+08:00 ] 127.0.0.1 /index.php?c=detail&id=161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `cms_news` SET `count`='35' WHERE ( news_id=161 ) [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2017-07-20T23:06:02+08:00 ] 127.0.0.1 /index.php?c=detail&id=161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `cms_news` SET `count`='36' WHERE ( news_id=161 ) [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2017-07-20T23:06:03+08:00 ] 127.0.0.1 /index.php?c=detail&id=161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `cms_news` SET `count`='37' WHERE ( news_id=161 ) [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-07-20T23:06:03+08:00 ] 127.0.0.1 /index.php?c=detail&id=161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `cms_news` SET `count`='38' WHERE ( news_id=161 ) [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000321s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000767s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2017-07-20T23:06:03+08:00 ] 127.0.0.1 /index.php?c=detail&id=161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `cms_news` SET `count`='39' WHERE ( news_id=161 ) [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000451s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001099s ]
+
+[ 2017-07-20T23:06:04+08:00 ] 127.0.0.1 /index.php?c=detail&id=161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `cms_news` SET `count`='40' WHERE ( news_id=161 ) [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2017-07-20T23:06:04+08:00 ] 127.0.0.1 /index.php?c=detail&id=161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `cms_news` SET `count`='41' WHERE ( news_id=161 ) [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2017-07-20T23:06:04+08:00 ] 127.0.0.1 /index.php?c=detail&id=161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `cms_news` SET `count`='42' WHERE ( news_id=161 ) [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-07-20T23:06:04+08:00 ] 127.0.0.1 /index.php?c=detail&id=161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `cms_news` SET `count`='43' WHERE ( news_id=161 ) [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2017-07-20T23:06:05+08:00 ] 127.0.0.1 /index.php?c=detail&id=161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `cms_news` SET `count`='44' WHERE ( news_id=161 ) [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2017-07-20T23:06:05+08:00 ] 127.0.0.1 /index.php?c=detail&id=161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `cms_news` SET `count`='45' WHERE ( news_id=161 ) [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2017-07-20T23:06:12+08:00 ] 127.0.0.1 /index.php?c=detail&id=161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `cms_news` SET `count`='46' WHERE ( news_id=161 ) [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsContentModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=161 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2017-07-20T23:30:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0013s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2017-07-20T23:30:05+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('161','178','171','142')  [ RunTime:0.0005s ]
+
+[ 2017-07-20T23:30:05+08:00 ] 127.0.0.1 /index.php?c=cat&id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( menu_id=18 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: p D:\zjklyw\Azjklynew\Home\Controller\CatController.class.php 第 18 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 AND `thumb` <> '' AND `catid` = 18 ORDER BY listorder desc ,news_id desc LIMIT 0,5   [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 AND `thumb` <> '' AND `catid` = 18 LIMIT 1   [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2017-07-20T23:30:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0009s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2017-07-20T23:30:11+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('161','178','171','142')  [ RunTime:0.0004s ]
+
+[ 2017-07-20T23:30:12+08:00 ] 127.0.0.1 /index.php?c=cat&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: p D:\zjklyw\Azjklynew\Home\Controller\CatController.class.php 第 18 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 AND `thumb` <> '' AND `catid` = 3 ORDER BY listorder desc ,news_id desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 AND `thumb` <> '' AND `catid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2017-07-20T23:30:13+08:00 ] 127.0.0.1 /index.php?c=cat&id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( menu_id=18 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: p D:\zjklyw\Azjklynew\Home\Controller\CatController.class.php 第 18 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 AND `thumb` <> '' AND `catid` = 18 ORDER BY listorder desc ,news_id desc LIMIT 0,5   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 AND `thumb` <> '' AND `catid` = 18 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2017-07-20T23:30:15+08:00 ] 127.0.0.1 /index.php?c=hotel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant list_hotel - assumed 'list_hotel' D:\zjklyw\Azjklynew\Home\Controller\HotelController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 9 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: result D:\zjklyw\Azjklynew\Runtime\Cache\Home\79283f433f47159f61bbe00d9f63da11.php 第 57 行.
+NOTIC: [8] Undefined variable: result D:\zjklyw\Azjklynew\Runtime\Cache\Home\79283f433f47159f61bbe00d9f63da11.php 第 58 行.
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2017-07-20T23:30:16+08:00 ] 127.0.0.1 /index.php?c=alljd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE ( catid>=25 and catid<=39 and status!=-1 ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] Creating default object from empty value D:\zjklyw\Azjklynew\Home\Controller\AlljdController.class.php 第 12 行.
+SQL: SELECT * FROM `cms_news` WHERE ( catid>=25 and catid<=39 and status!=-1 ) LIMIT 0,10   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 2 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant list_jdql - assumed 'list_jdql' D:\zjklyw\Azjklynew\Home\Controller\AlljdController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: result D:\zjklyw\Azjklynew\Runtime\Cache\Home\a2591f196eaa2594036088392e367792.php 第 57 行.
+NOTIC: [8] Undefined variable: result D:\zjklyw\Azjklynew\Runtime\Cache\Home\a2591f196eaa2594036088392e367792.php 第 58 行.
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2017-07-20T23:45:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0011s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\zjklyw\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\zjklyw\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: homeUser D:\zjklyw\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2017-07-20T23:45:53+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\zjklyw\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\zjklyw\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('161','178','171','142')  [ RunTime:0.0004s ]
+
