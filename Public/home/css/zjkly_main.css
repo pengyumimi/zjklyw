@@ -416,6 +416,10 @@ body{
         width: auto;
         margin: 0 15px;
     }
+    nav ul .active{
+        background-color: #0090ff;
+        color: #fff !important;
+    }
     .nav_l {
         display: none;
         width: 100%;
