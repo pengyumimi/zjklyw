@@ -45,6 +45,7 @@ if( username == "" || username == null){
 	$(".signin_btn,.reg_btn,.qq_btn,.weixin_btn").hide();
 	$(".username").css("display","inline-block");
 	$(".username a").html(username);
+	$(".username a").append("退出");
 	//alert(username);
 	$(".hygl_username").html(username);
 }
