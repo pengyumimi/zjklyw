@@ -1,5 +1,10 @@
 <?php if (!defined('THINK_PATH')) exit();?>	<?php
 $config=D("Basic")->select(); $navs=D("Menu")->getBarMenus(); ?>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <!--默认用ie8的最高内核进行渲染，如果有谷歌的gcf，则用谷歌的内核渲染-->
@@ -15,13 +20,6 @@ $config=D("Basic")->select(); $navs=D("Menu")->getBarMenus(); ?>
 	<link rel="stylesheet" href="/Public/home/common/css/common.css">
 	<link rel="stylesheet" href="/Public/home/css/zjkly_main.css">
 	<script src="/Public/home/common/js/jquery-1.9.1.min.js"></script>
-<style>
-    nav ul .active{
-        background-color: #0090ff;
-        color: #fff !important;
-    } 
-	
-    </style>
 </head> 
 <body class="index">
 
@@ -54,10 +52,7 @@ $config=D("Basic")->select(); $navs=D("Menu")->getBarMenus(); ?>
 			
 		</ul>
 	</nav>
-</header>
-
-
-	
+</header>	
 
 	<div class="main_box">
 		<div class="banner">
@@ -293,17 +288,29 @@ $config=D("Basic")->select(); $navs=D("Menu")->getBarMenus(); ?>
             <li class="col-xs-3 col-sm-3 col-md-2 col-lg-1"><a target="_blank" class="label label-primary" href="#">艺龙酒店</a></li>-->
         </ul>
     </div>
-	<footer>
+
+        <footer>
 		<div class="foot">
-			<p>使用说明|意见反馈|免责条款|社区代理</p>
+			<p>使用说明|意见反馈|免责条款|社区代理<span style="margin:0 10px;"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1263135339'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1263135339%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script></span>
+</p>
 			<p>ICP备案编号：京ICP备14051536号-1 版权所有：张家口旅游网　建议您使用1366*768分辨率，ie8以上浏览器浏览本站</p>
+			<script>
+			//百度统计
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "https://hm.baidu.com/hm.js?28959f54b507b4e544e19772e04c75bb";
+				var s = document.getElementsByTagName("script")[0]; 
+				s.parentNode.insertBefore(hm, s);
+			})();
+			</script>
 		</div>
 	</footer>
 
-	
 	<script src="/Public/home/common/js/headroom.min.js"></script>
 	<script src="/Public/home/js/zjkly_main.js"></script>
 	<script src="/Public/home/js/alt.js"></script>
+	<script src="/Public/js/count.js"></script>
 	<script>
 	$(document).ready(function() {
 		var all_img = $(".banner .bigpic li");
@@ -365,6 +372,5 @@ $config=D("Basic")->select(); $navs=D("Menu")->getBarMenus(); ?>
 	    }); 
 	</script>
 </body>
-<script src="/Public/js/jquery.js"></script>
-<script src="/Public/js/count.js"></script>
+
 </html>

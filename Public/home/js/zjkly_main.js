@@ -48,13 +48,24 @@ if( username == "" || username == null){
 	//alert(username);
 	$(".hygl_username").html(username);
 }
-
+//适配手机的导航
+ window.onresize = function aa(){
+	 var ww = document.documentElement.clientWidth;
+	 var hh = document.documentElement.clientHeight;
+	 if (ww<1200){
+	 	$(".nav_l").addClass("phone_nav");
+	 }else{
+         $(".nav_l").removeClass("phone_nav");
+         $(".nav_l").show();
+     }
+ }
+onresize();
 //响应式导航切换按钮
 $(".phone_navBtn").click(function(event){
-	$(".nav_l").toggle();
+	$(".phone_nav").toggle();
 	return false;
 });
 //设置点击空白处隐藏导航栏
 $(document).click(function(event) { 
-    $(".nav_l").hide();
+    $(".phone_nav").hide();
 });  
