@@ -45,10 +45,19 @@ if( username == "" || username == null){
 	$(".signin_btn,.reg_btn,.qq_btn,.weixin_btn").hide();
 	$(".username").css("display","inline-block");
 	$(".username a").html(username);
-	$(".username a").append("退出");
+	$(".username").append("<a href='#' class='exitbtn'>退出</a>");
 	//alert(username);
 	$(".hygl_username").html(username);
 }
+$(".exitbtn").on("click",function(){
+    function deleteItem(){
+        localStorage.removeItem('username');
+        console.log(localStorage.getItem('username'));
+    }
+    deleteItem();
+    $(".signin_btn,.reg_btn,.qq_btn,.weixin_btn").show();
+    $(".username").hide();
+});
 //适配手机的导航
  window.onresize = function aa(){
 	 var ww = document.documentElement.clientWidth;
