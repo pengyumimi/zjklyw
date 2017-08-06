@@ -25,7 +25,7 @@
 		<nav>
 			<a href="index.html"><img src="img/logo.png" class="logo left"/></a>
 			<ul class="nav_l left">
-				<li class="active"><a href="index.html">111首页</a></li>
+				<li class="active"><a href="index.html">首页</a></li>
 				<li><a href="list_zty.html">主题游</a></li>
 				<li><a href="list_hotel.html">客栈&nbsp;<i class="fa fa-angle-down"></i></a>
 					<ul class="drop-down"><!--二级菜单在一级li中嵌套ul列表即可-->
