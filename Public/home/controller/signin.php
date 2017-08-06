@@ -18,7 +18,8 @@
 			while ($attr = $result->fetch_row()){ //将数据以索引方式储存在数组中
 				$_SESSION['user'] = $attr[1];//将用户名赋值到session
 				$_SESSION['id'] = $attr[0];//将用户名id赋值到session
-				echo json_encode(array("msg"=>"登陆成功！", "result"=>"1", "id"=> $_SESSION['id'], "name"=> $_SESSION['user']));//返回到前台数据
+				$_SESSION['homeUser'] = $attr[1];//将用户名赋值到session
+				echo json_encode(array("msg"=>"登陆成功！", "result"=>"1", "id"=> $_SESSION['id'], "name"=> $_SESSION['user'],"homeUser" => $_SESSION['homeUser']));//返回到前台数据
 			}
 		}else{  
 			echo json_encode(array("msg"=>"用户名或密码不正确！", "result"=>"2"));

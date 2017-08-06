@@ -132,7 +132,7 @@ function signin(url, pagedata, _this) {
 			if (data.result == 1) {
 				$('.tip').html(data.msg).fadeIn(0).delay(1000).fadeOut("slow");
 				localStorage.setItem('username',data.name);
-				window.location.href = "../../index.php";
+				//window.location.href = "../../index.php";
 			} else if (data.result == 0) {
 				$('.tip').html(data.msg).fadeIn(0).delay(1000).fadeOut("slow");
 			} else if (data.result == 2){
