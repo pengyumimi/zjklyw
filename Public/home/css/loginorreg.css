@@ -658,7 +658,7 @@ footer a{
 	position: absolute;
 	z-index: 0;
 	background: #262830;
-	background: url(../img/signin_b.png) no-repeat;
+	background: url(../img/signin_b.jpg) no-repeat;
     background-size: 100% 100%;
 }
 .sign_main .col-xs-12,.sign_main .col-xs-12,.sign_main .col-sm-12{

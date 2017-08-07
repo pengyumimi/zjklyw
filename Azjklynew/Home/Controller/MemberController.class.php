@@ -8,9 +8,13 @@ class MemberController extends CommonController{
     }
 
     public function  login(){
-       
+    echo "2330";
+
        $username=$_POST["username"];
+
+      // dump($username);die();
        $password=$_POST["password"];
+       dump($username);die;
         if(!trim($username)){
             return  show(0,'用户名不能为空');
         }
@@ -27,10 +31,11 @@ class MemberController extends CommonController{
  else {
         //session('memusername',$ret['username']);
         session('homeUser', $ret);
+        dump ($ret['username']);
          //return show(1,'登录成功');
         // dump ($_SESSION);
         return show(1,'登录成功');
-    }  
+    }
    
             
 }

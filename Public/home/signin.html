@@ -12,11 +12,11 @@
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/>
 	<link rel="icon" href="favicon.ico" mce_href="favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="http://www.zjkly.com.cn/Public/home/common/bootstrap_3.3.5/css/bootstrap.min.css">
-	<link rel="stylesheet" href="http://www.zjkly.com.cn/Public/home/common/css/common-login.css">
-	<link rel="stylesheet" href="http://www.zjkly.com.cn/Public/home/css/loginorreg.css">
-	<script src="http://www.zjkly.com.cn/Public/home/common/js/respond.src.js"></script><!--media ie8-->
-	<script src="http://www.zjkly.com.cn/Public/home/common/js/modernizr-2.6.2.min.js"></script><!--h5新标签兼容低版本浏览器-->
+	<link rel="stylesheet" href="/Public/home/common/bootstrap_3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/Public/home/common/css/common-login.css">
+	<link rel="stylesheet" href="/Public/home/css/loginorreg.css">
+	<script src="/Public/home/common/js/respond.src.js"></script><!--media ie8-->
+	<script src="/Public/home/common/js/modernizr-2.6.2.min.js"></script><!--h5新标签兼容低版本浏览器-->
 </head>
 <body class="sign_main">
 	<div class="sign_background"></div>
@@ -61,8 +61,8 @@
 	<div class="tip"></div>
 </body>
 
-	<script src="http://www.zjkly.com.cn/Public/home/common/js/jquery-1.9.1.min.js"></script>
-	<script src="http://www.zjkly.com.cn/Public/home/common/js/plugins.js"></script><!--解决console调试的时候IE报错-->
+	<script src="/Public/home/common/js/jquery-1.9.1.min.js"></script>
+	<script src="/Public/home/common/js/plugins.js"></script><!--解决console调试的时候IE报错-->
 	<script src="ajaxapi/ajaxapi_sign.js"></script><!--解决console调试的时候IE报错-->
 	<script>
 		$(document).ready(function () {
@@ -75,13 +75,13 @@
 				var password_val = passwordselecter.val();
 				//后台json数据传输格式
 				var pagedata = {
-					_username: phone_val,
-					_password: password_val,
+                    username: phone_val,
+					password: password_val,
 				};
 				yanz_phone(phone_val,phoneselecter);//执行验证手机号
 				yanz_pass(password_val,passwordselecter);//执行密码验证
 				if(flag == 1 && flag_phone == 1 && flag_password == 1){
-					signin("controller/signin.php", pagedata, _this);
+					signin("http://localhost/index.php/Home/Member/login", pagedata, _this);
 				}
 			});
 			
