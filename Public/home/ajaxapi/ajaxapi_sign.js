@@ -115,50 +115,7 @@ function postlist(url, pagedata, _this) {
             $('.tip').html("提交失败").fadeIn(0).delay(1000).fadeOut("slow");
         }
     });
-
-	// $.ajax({
-	// 	type: "post",
-	// 	url: url,
-	// 	dataType: "json",
-	// 	data: pagedata,
-	// 	success: function(data){
-	// 		console.log(data);
-	// 		// if (data.result == 1) {
-	// 		// 	_this.removeAttr("disabled");
-	// 		// 	_this.text('立即登录');
-	// 		// 	$('.tip').html(data.msg).fadeIn(0).delay(1000).fadeOut("slow");
-	// 		// } else if (data.result == 0) {
-	// 		// 	_this.attr('disabled','true');
-	// 		// 	_this.text('申请试用');
-	// 		// 	$('.tip').html(data.msg).fadeIn(0).delay(1000).fadeOut("slow");
-	// 		// } else if (data.result == 3){
-	// 		// 	_this.removeAttr("disabled");
-	// 		// 	_this.text('申请试用');
-	// 		// 	$('.tip').html(data.msg).fadeIn(0).delay(1000).fadeOut("slow");
-	// 		// }
-	// 	},
-	// 	error: function () {
-	// 		$('.tip').html("提交失败").fadeIn(0).delay(1000).fadeOut("slow");
-	// 	}
-	// });
 };
-
-// function postlist(url, pagedata, _this) {
-// 	alert(3333333333);
-//     $.ajax({
-//         type: "post",
-//         url: url,
-//         dataType: "json",
-//         data: pagedata,
-//         success: function(data){
-//             console.log(data);
-//
-//         },
-//         error: function () {
-//             $('.tip').html("123123").fadeIn(0).delay(1000).fadeOut("slow");
-//         }
-//     });
-// };
 
 //登录数据提交
 function signin(url, pagedata, _this) {
@@ -168,7 +125,6 @@ function signin(url, pagedata, _this) {
 		dataType: "json",
 		data: pagedata,
 		success: function(data){
-			console.log(data);
 			if (data.status == 1) {
 				$('.tip').html(data.message).fadeIn(0).delay(1000).fadeOut("slow");
 				localStorage.setItem('username',data.name);
