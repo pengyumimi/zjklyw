@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07daf763-c78f-4a37-8499-516f97fde13c" name="默认的" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Home/View/Member/Member.lnk" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Home/Controller/MemberController.class.php" afterPath="$PROJECT_DIR$/Azjklynew/Home/Controller/MemberController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/home/ajaxapi/ajaxapi_sign.js" afterPath="$PROJECT_DIR$/Public/home/ajaxapi/ajaxapi_sign.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/home/reg.html" afterPath="$PROJECT_DIR$/Public/home/reg.html" />
-    </list>
+    <list default="true" id="07daf763-c78f-4a37-8499-516f97fde13c" name="默认的" comment="" />
     <ignored path="zjklyw.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -492,12 +486,12 @@
       <workItem from="1502005920092" duration="6412000" />
       <workItem from="1502012468601" duration="1405000" />
       <workItem from="1502069081864" duration="638000" />
-      <workItem from="1502520196701" duration="7873000" />
+      <workItem from="1502520196701" duration="8123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16328000" />
+    <option name="totallyTimeSpent" value="16578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
