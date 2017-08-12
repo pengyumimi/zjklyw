@@ -3,47 +3,52 @@ namespace Home\Controller;
 use Think\Controller;
 use Think\Exception;
 class MemberController extends CommonController{
+
     public function  index(){
-        $this->display(login);
+        $this->display(reg);
     }
+	//调用页面方法
+	public function logins(){
+		 $this->display(signin);
+	}
 
-    public function  login(){
-    echo "2330";
+	//传参方法
+	public function login(){
 
-       $username=$_POST["username"];
+		if($_POST){
+			$username=$_POST["username"];
+			$password=$_POST["password"];
 
-      // dump($username);die();
-       $password=$_POST["password"];
-       dump($username);die;
-        if(!trim($username)){
-            return  show(0,'用户名不能为空');
-        }
-        if(!trim($password)){
-            return show(0, '密码不能为空');
-        }
-       $ret= D('Member')->modelogin($username);
-       // $ret=M(member)->find($username);
-    // $ret= $Momed->('member')->login();
-     // print_r($ret);
-    if($ret['username'] != $username || getMd5Password($password) != $ret['password']){
-        return show(0,'用户名或者密码错误');
-    }
- else {
-        //session('memusername',$ret['username']);
-        session('homeUser', $ret);
-        dump ($ret['username']);
-         //return show(1,'登录成功');
-        // dump ($_SESSION);
-        return show(1,'登录成功');
-    }
-   
-            
-}
-//退出登录
-public function loginout() {
-        session('homeUser', null);
-        $this->redirect('/index.php?c=member');
-    }
+			if(!trim($username)){
+				return  show(0,'用户名不能为空');
+			}
+			if(!trim($password)){
+				return show(0, '密码不能为空');
+			}
+			$ret= D('Member')->modelogin($username);
+			// $ret=M(member)->find($username);
+			// $ret= $Momed->('member')->login();
+			// print_r($ret);
+			if($ret['username'] != $username || getMd5Password($password) != $ret['password']){
+				return show(0,'用户名或者密码错误');
+			}
+			else {
+				//session('memusername',$ret['username']);
+				session('homeUser', $ret);
+				//dump ($ret['username']);
+				//return show(1,'登录成功');
+				// dump ($_SESSION);
+				return show(1,'登录成功');
+			}
+		}
+
+	}
+
+	//退出登录
+	public function loginout() {
+		session('homeUser', null);
+		$this->redirect('/index.php?c=member');
+	}
 //注册
 public function  regist(){
 

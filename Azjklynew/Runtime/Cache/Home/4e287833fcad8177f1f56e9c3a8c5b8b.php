@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -26,10 +26,10 @@
 			<div class="sign_banner_box">
 		        <div class="col-xs-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 sign_banner">
 		            <div class="sign_banner_img">
-		                <a href="index.html"><img class="img-responsive" src="img/logo_b.png"/></a>
+		                <a href="index.html"><img class="img-responsive" src="/Public/home/img/logo_b.png"/></a>
 		            </div>
 		            <div class="sign_banner_img">
-		                <img class="img-responsive" style="width:70%" src="img/logintxt_reg.png"/>
+		                <img class="img-responsive" style="width:70%" src="/Public/home/img/logintxt_reg.png"/>
 		            </div>
 		        </div>
 		    </div>
@@ -77,7 +77,7 @@
 
 	<script src="/Public/home/common/js/jquery-1.9.1.min.js"></script>
 	<script src="/Public/home/common/js/plugins.js"></script><!--解决console调试的时候IE报错-->
-	<script src="ajaxapi/ajaxapi_sign.js"></script><!--解决console调试的时候IE报错-->
+	<script src="/Public/home/ajaxapi/ajaxapi_sign.js"></script><!--解决console调试的时候IE报错-->
 	<script>
 		$(document).ready(function () {
 			
@@ -96,8 +96,8 @@
 				
 				//后台json数据传输格式
 				var pagedata = {
-					_username: phone_val,
-					_password: password_val
+					username: phone_val,
+					password: password_val
 				};
 				yanz_phone(phone_val,phoneselecter);//执行验证手机号
 				yanz_pass(password_val,passwordselecter);//执行密码验证
@@ -111,11 +111,6 @@
 				}
 			});
 		});
-
-        var SCOPE = {
-            'save_url' : '/admin.php?c=admin&a=add',
-            'jump_url' : '/admin.php?c=admin',
-        }
 
 	</script>
 </html>

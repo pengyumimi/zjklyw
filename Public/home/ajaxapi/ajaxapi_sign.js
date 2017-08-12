@@ -90,53 +90,93 @@ function yanz_yzm(_val,selecter){
 
 //注册数据提交
 function postlist(url, pagedata, _this) {
-	$.ajax({  
-		type: "post",
-		url: url,
-		dataType: "json",
-		data: pagedata,
-		beforeSend:function(){
-			_this.text('提交中...');
-			_this.attr('disabled','disabled');//改变提交按钮上的文字并将按钮设置为不可点击
-		}, 
-		success: function(data){
-			console.log(data);
-			if (data.result == 1) {
+
+    $.ajax({
+        type: "POST",
+        url: url,
+        dataType: "json",
+        data: pagedata,
+        success: function(data){
+			if (data.status == 1) {
 				_this.removeAttr("disabled");
 				_this.text('立即登录');
-				$('.tip').html(data.msg).fadeIn(0).delay(1000).fadeOut("slow");
-			} else if (data.result == 0) {
+				$('.tip').html(data.message).fadeIn(0).delay(1000).fadeOut("slow");
+			} else if (data.status == 0) {
 				_this.attr('disabled','true');
 				_this.text('申请试用');
-				$('.tip').html(data.msg).fadeIn(0).delay(1000).fadeOut("slow");
-			} else if (data.result == 3){
+				$('.tip').html(data.message).fadeIn(0).delay(1000).fadeOut("slow");
+			} else if (data.status == 3){
 				_this.removeAttr("disabled");
 				_this.text('申请试用');
-				$('.tip').html(data.msg).fadeIn(0).delay(1000).fadeOut("slow");
+				$('.tip').html(data.message).fadeIn(0).delay(1000).fadeOut("slow");
 			}
-		},  
-		error: function () {  
-			$('.tip').html("登录失败").fadeIn(0).delay(1000).fadeOut("slow");
-		}  
-	});  
+        },
+        error: function () {
+            $('.tip').html("提交失败").fadeIn(0).delay(1000).fadeOut("slow");
+        }
+    });
+
+	// $.ajax({
+	// 	type: "post",
+	// 	url: url,
+	// 	dataType: "json",
+	// 	data: pagedata,
+	// 	success: function(data){
+	// 		console.log(data);
+	// 		// if (data.result == 1) {
+	// 		// 	_this.removeAttr("disabled");
+	// 		// 	_this.text('立即登录');
+	// 		// 	$('.tip').html(data.msg).fadeIn(0).delay(1000).fadeOut("slow");
+	// 		// } else if (data.result == 0) {
+	// 		// 	_this.attr('disabled','true');
+	// 		// 	_this.text('申请试用');
+	// 		// 	$('.tip').html(data.msg).fadeIn(0).delay(1000).fadeOut("slow");
+	// 		// } else if (data.result == 3){
+	// 		// 	_this.removeAttr("disabled");
+	// 		// 	_this.text('申请试用');
+	// 		// 	$('.tip').html(data.msg).fadeIn(0).delay(1000).fadeOut("slow");
+	// 		// }
+	// 	},
+	// 	error: function () {
+	// 		$('.tip').html("提交失败").fadeIn(0).delay(1000).fadeOut("slow");
+	// 	}
+	// });
 };
+
+// function postlist(url, pagedata, _this) {
+// 	alert(3333333333);
+//     $.ajax({
+//         type: "post",
+//         url: url,
+//         dataType: "json",
+//         data: pagedata,
+//         success: function(data){
+//             console.log(data);
+//
+//         },
+//         error: function () {
+//             $('.tip').html("123123").fadeIn(0).delay(1000).fadeOut("slow");
+//         }
+//     });
+// };
+
 //登录数据提交
 function signin(url, pagedata, _this) {
 	$.ajax({  
 		type: "post",
 		url: url,
-		//dataType: "json",
+		dataType: "json",
 		data: pagedata,
 		success: function(data){
 			console.log(data);
-			if (data.result == 1) {
-				$('.tip').html(data.msg).fadeIn(0).delay(1000).fadeOut("slow");
+			if (data.status == 1) {
+				$('.tip').html(data.message).fadeIn(0).delay(1000).fadeOut("slow");
 				localStorage.setItem('username',data.name);
 				window.location.href = "../../index.php";
-			} else if (data.result == 0) {
-				$('.tip').html(data.msg).fadeIn(0).delay(1000).fadeOut("slow");
-			} else if (data.result == 2){
-				$('.tip').html(data.msg).fadeIn(0).delay(1000).fadeOut("slow");
+			} else if (data.status == 0) {
+				$('.tip').html(data.message).fadeIn(0).delay(1000).fadeOut("slow");
+			} else if (data.status == 2){
+				$('.tip').html(data.message).fadeIn(0).delay(1000).fadeOut("slow");
 			}
 		},  
 		error: function () {  
