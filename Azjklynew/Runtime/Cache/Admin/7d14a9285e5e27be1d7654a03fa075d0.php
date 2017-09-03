@@ -39,6 +39,10 @@
 
 
 <body>
+<style>
+  .uploadify-queue-item{width:200px;height:160px;display:inline-block;vertical-align: middle;margin:10px;}
+  .uploadify-queue-item img{width:100%;height:100%;}
+</style>
 <div id="wrapper">
 
   <?php
@@ -121,7 +125,7 @@
             </div>
             <div class="form-group">
               <label for="inputname" class="col-sm-2 control-label">缩图:</label>
-              <div class="col-sm-5">
+              <div class="col-sm-5 img_list">
                 <input id="file_upload"  type="file" multiple="true" >
                 <img style="display: none" id="upload_org_code_img" src="" width="150" height="150">
                 <input id="file_upload_image" name="thumb" type="hidden" multiple="true" value="">

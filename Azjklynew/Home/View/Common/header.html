@@ -34,7 +34,7 @@ $navs=D("Menu")->getBarMenus();
 			<foreach name="navs" item="vo">
 			<li><a href="/index.php?c=cat&id={$vo.menu_id}">{$vo.name}</a></li>
 			</foreach>
-			<li><a href="/index.php?c=hotel" <if condition="$result['catId'] eq 1">class="active"</if>>客栈</a></li>
+			<!--<li><a href="/index.php?c=hotel" <if condition="$result['catId'] eq 1">class="active"</if>>客栈</a></li>-->
 			<li><a href="/index.php?c=alljd" <if condition="$result['catId'] eq 1">class="active"</if>>景点全览</a></li>
 			<li><a href="http://www.beijing2022.cn/">奥运</a></li>
 			<li><a href="old/">回到旧版</a></li>

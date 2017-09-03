@@ -8,15 +8,15 @@ $(function() {
         'buttonText': '上传图片',
         'fileTypeDesc': 'Image Files',
         'fileObjName' : 'file',
-        'auto':true, //是否自动开始上传
-        //'debug' : false,// 是否开启浏览器调试
-        //'buttonText' : '请选择图片', // 上传按钮文字
-        //'fileTypeExts':'*.jpg;*.gif;*.bmp;*.png;*.jpeg', //允许的图片类型
+         'auto':true, //是否自动开始上传
+         //'debug' : false,// 是否开启浏览器调试
+                //'buttonText' : '请选择图片', // 上传按钮文字
+                //'fileTypeExts':'*.jpg;*.gif;*.bmp;*.png;*.jpeg', //允许的图片类型
         'fileSizeLimit' : '5MB', // 允许的单张图片的自大值
         'multi' : true, //是否允许多张图片一起上传
         'uploadLimit':3,
         'removeCompleted':false,
-
+        
         'itemTemplate':'<div id="${fileID}" class="uploadify-queue-item">\<a class="cancel" href="javascript:$(\'#${instanceID}\').uploadify(\'cancel\', \'${fileID}\')">删除</a>\
           <p class="data"></p>\
                <p class="fileName">${fileName}</p>\

@@ -1,0 +1,42 @@
+[ 2017-08-30T19:14:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002602s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\wamp\www\Azjklynew\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\Azjklynew\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0085s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\Azjklynew\Common\Model\PositionContentModel.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0139s ]
+NOTIC: [8] Undefined index: title C:\wamp\www\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 7 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: title C:\wamp\www\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 8 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: title C:\wamp\www\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY listorder desc ,id desc LIMIT 5   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: title C:\wamp\www\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 10 ORDER BY listorder desc ,id desc LIMIT 4   [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: title C:\wamp\www\Azjklynew\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY listorder desc ,id desc LIMIT 8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001703s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002330s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) C:\wamp\www\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) C:\wamp\www\Azjklynew\Common\Model\BasicModel.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) C:\wamp\www\Azjklynew\Common\Model\MenuModel.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0026s ]
+NOTIC: [8] Undefined index: homeUser C:\wamp\www\Azjklynew\Common\Common\function.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001613s ]
+

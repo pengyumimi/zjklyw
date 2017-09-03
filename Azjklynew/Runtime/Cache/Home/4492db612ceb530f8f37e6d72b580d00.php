@@ -42,8 +42,8 @@ $config=D("Basic")->select(); $navs=D("Menu")->getBarMenus(); ?>
 			<a href=""><?php echo homeLoginUsername()?></a>><a href="<?php echo U('member/loginout');?>">退出</a>
 			<?php
  }else{ ?>
-			<li class="signin_btn"><a href="http://www.zjkly.com.cn/Public/home/signin.html">登录</a></li>
-			<li class="reg_btn"><a href="http://www.zjkly.com.cn/Public/home/reg.html">注册</a></li>
+			<li class="signin_btn"><a href="<?php echo U('member/logins');?>">登录</a></li>
+			<li class="reg_btn"><a href="<?php echo U('member/index');?>">注册</a></li>
 			<li class="qq_btn"><a href="#"><i class="fa fa-qq"></i></a></li>
 			<li class="weixin_btn"><a href="#"><i class="fa fa-weixin"></i></a></li>
 			<li class="username"><a href="Public/home/useradmin.html"></a></li>
