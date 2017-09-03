@@ -26,14 +26,49 @@ class OrderController extends CommonController{
 
         $this->display();
     }
-    public function  confirm(){
+   public function  confirm(){
          $user=$this->isLogin();
         if($user == false){
            $this->error("您没有登录，请登录！");
-
         }else{
-            $this->display();
-
+              //$id = intval($_GET['id']);
+           
+             $user = $this->getLoginUser();                
+             //dump($user);
+             $id = intval($_GET['id']);            
+              $arr =  M("News")->where('news_id="'.$id.'"')->select();
+              $this->assign('arr',$arr);
+              $this->assign('user',$user['username']);
+              $this->assign('phone',$user['phone']);
+             //dump($arr); die();
+        $this->display();
        }
+    }
+    public function rel_order(){
+      $id = intval($_GET['id']);
+      $user = $this->getLoginUser(); 
+      $arr =  M("News")->where('news_id="'.$id.'"')->find();   
+      $news_id=$arr['news_id'];    
+      $map=array();    
+      $map['username']=$user['username'];
+      $map['phone']=$user['phone'];
+      $map['news_id']=$arr['news_id'];  
+      $map['news_title']=$arr['title'];
+      $map['ctrs_num']=$arr['ctrs'];
+      $p_num = $_POST['p_num'];
+      $p_num = $_POST['p_num'];
+
+      $map['price']=$arr['price'];
+      $map['priceTotal']=$arr['priceTotal'];
+      $map['create_time']=time();
+      $year_code = array('A','B','C','D','E','F','G','H','I','J');
+      $order_sn = $year_code[intval(date('Y'))-2010].
+      strtoupper(dechex(date('m'))).date('d').
+      substr(time(),-5).substr(microtime(),2,5).sprintf('d',rand(0,99));
+      $map['orderid']=$order_sn;
+      $map['uid']=$id;
+      $user=M('orderdetail')->add($map);
+      $this->display();
+      //echo "提交成功";
     }
 }

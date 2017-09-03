@@ -9,33 +9,32 @@
 					<img class="b_radius" src="{$vo.thumb}" > 
 				</a>
 			</div>
-        <div class="right goods_price">
-			
+			<div class="right goods_price">
 				<h1>{$vo.title}</h1>
-				
-				<p class="ellipsis">{$vo.description}</p>		
+				<p class="ellipsis">{$vo.description}</p>
 				<div style="overflow:hidden;">
-                    <div class="price">价格:<span>￥<b id="single_price">{$vo.price}</b></span>起/人</div>
-				<div class="cantuan">参团人数:<span>{$vo.ctrs}</span>人</div>
+					<div class="price">价格:<span>￥<b id="single_price">{$vo.price}</b></span>起/人</div>
+					<div class="cantuan">参团总人数:<span>{$vo.ctrs}</span>人</div>
 				</div>
 				<div class="goods_tab">
-					<ul class="tabs">  
+					<ul class="tabs">
 						<li class="tab_active"><a href="#tab1"><i class="fa fa-circle tab_act"></i> 项目包含</a></li>
 						<li><a href="#tab2"><i class="fa fa-circle tab_act"></i> 项目不含</a></li>
 					</ul>
-					<div class="tab_container">  
+					<div class="tab_container">
 						<div id="tab1" class="tab_content" style="display: block; ">
-							<ol><li>{$vo.bhxm}</li><ol>
+							<ol><li>{$vo.bhxm}</li></ol>
 						</div>
 						<div id="tab2" class="tab_content" style="display: none; ">
 							{$vo.bbhxm}
 						</div>
 					</div>
 				</div>
-                <div class="add_num">
-                    参团人数：<input type="text" class="form-control" id="p_num" value="1"/>
-                    <a href="/index.php?c=order&a=confirm&id={$vo.news_id}" class="button button-glow button-rounded button-caution right">￥<span id="total">{$vo.price}</span><cite></cite>立即报名</a>
-                </div>
+				<div class="add_num">
+					报名人数：<input type="text" class="form-control" id="p_num" value="1"/><input type="hidden" id="priceTotal" value=""/><input type="hidden" id="pid" value="{$vo.news_id}"/>
+					<a href="#" class="button button-glow button-rounded button-caution right" id="baomingBtn">￥<span id="total">{$vo.priceTotal}</span><cite></cite>立即报名</a>
+				</div>
+			</div>
 		</section>
 		</foreach>
 		<section>
@@ -49,7 +48,7 @@
 					<h1>{$vo.title}</h1>
 					
 					<div class="article_icons">
-						<span><i class="fa fa-eye m_leftright5"></i>浏览量&nbsp;<i>/</i>&nbsp;2123</span>
+						<span><i class="fa fa-eye m_leftright5"></i>浏览量&nbsp;<i>/</i>&nbsp;222</span>
 						<span><i class="fa fa-comment m_leftright5"></i>留言&nbsp;<i>/</i>&nbsp;2123</span>
 						<span><i class="fa fa-thumbs-up m_leftright5"></i>赞&nbsp;<i>/</i>&nbsp;2123</span>
 						<span>2016-05-21 00:20</span>
@@ -61,9 +60,9 @@
 						<span><i class="fa fa-user m_leftright5"></i>人物&nbsp;<i>/</i>&nbsp;小两口</span>
 						<span><i class="fa fa-cny m_leftright5"></i>人均费用&nbsp;<i>/</i>&nbsp;600元</span>
 					</div>
-					<script>
-						$(".article_content").html({$vo.content});
-					</script>
+					<!--<script>-->
+						<!--$(".article_content").html({$vo.content});-->
+					<!--</script>-->
 					<div class="article_content">
 						{$vo.content}
 					</div>
@@ -137,14 +136,34 @@
 	        return false;  
 	    }); 
         //total price
+		var pid = $("#pid").val();
         var single_price = $('#single_price').html();
         var total_end = $('#total').html();
+        var priceTotal = $('#priceTotal').val();
+        var p_num = $('#p_num').val();
+        var total = single_price * p_num;
+        total_end = total;
+        if (total_end){
+            $('#priceTotal').val(total_end);
+            $('#total').html(total_end);
+		}
         $('#p_num').bind("input propertychange",function(){
-            var p_num = $(this).val();
+            var p_num = $('#p_num').val();
             var total = single_price * p_num;
             total_end = total;
+            $('#priceTotal').val(total_end);
             $('#total').html(total_end);
         });
+        $("#baomingBtn").on("click",function(){
+            var priceTotal = $('#priceTotal').val();
+            var p_num = $('#p_num').val();
+            if (pid && priceTotal>0){
+            var _href = '/index.php?c=order&a=confirm&id='+pid+'&p_num='+p_num+'&priceTotal='+priceTotal;
+            $("#baomingBtn").attr('href', _href);
+            }else{
+                alert("提交出错，请刷新页面！");
+			}
+		});
     });
 	</script>
 </body>

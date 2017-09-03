@@ -4,6 +4,10 @@
 
 	<div class="main_box pay_confirm">
 		<section class="confirm_box">
+			<span style="display:none"><foreach name='arr' item="vo">
+						<td>{$vo.title}</td>
+					   </foreach></span>
+			<form action="/index.php?c=order&a=rel_order&id={$vo.news_id}">
 			<div class="confirm_list">
 				<h3>订单确认</h3>
 				<table class="table">
@@ -13,16 +17,28 @@
 						<td>{$vo.title}</td>
 					   </foreach>
 					</tr>
-					<tr>
+					<!--<tr>
 						<td>参加人数:</td>
 						<foreach name='arr' item="vo">
 						<td>{$vo.ctrs}</td>
 						</foreach>
 					</tr>
 					<tr>
-						<td>金额:</td>						
+						<td>金额:</td>
 						<foreach name='arr' item="vo">
-						<td>￥ <b class="red">{$vo.price}</b></td>
+						<td>￥ <b class="red">{$vo.priceTotal}</b></td>
+						</foreach>
+					</tr>-->
+					<tr>
+						<td>参加人数:</td>
+						<foreach name='arr' item="vo">
+							<td><span id="p_num"></span>&nbsp;&nbsp;人<input type="hidden" name="p_num"></td>
+						</foreach>
+					</tr>
+					<tr>
+						<td>金额:</td>
+						<foreach name='arr' item="vo">
+						<td>￥ <b class="red"><span id="priceTotal"></span>&nbsp;&nbsp;元<input type="hidden" name="priceTotal"></b></td>
 						</foreach>
 					</tr>
 					<tr>
@@ -41,7 +57,7 @@
 						<td>事项说明:</td>
 						<foreach name='arr' item="vo">
 						<td>{$vo.description}</td>
-					</foreach>
+						</foreach>
 					</tr>
 
 				</table>
@@ -74,25 +90,40 @@
 					</tr>
 				</table>
 			</div>
-			<div class="add_num">                  
-                    <a href="/index.php?c=order&a=rel_order&id={$vo.news_id}" class="button button-glow button-rounded button-caution right">提交订单</a>
+			<div class="add_num">
+                    <button type="submit" class="button button-glow button-rounded button-caution right">提交订单</button>
                 </div>
            <!--  <div class="but_list">
                 <button class="gray_but">返回修改</button>
 				<button class="blue_but" id="singcms-button-submit">提交订单</button>
             </div> -->
+			</form>
 		</section>
 	</div>
 
     <include file="Common/footer"/>
 
 	<script>
+	//页面跳转接收项目id值
+	function GetQueryString(name) {
+		var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+		var r = window.location.search.substr(1).match(reg);
+		if (r != null) return (r[2]);
+		return null;
+	}
 	$(document).ready(function() {
 		$('.zffs_list table td').click(function(){
 			$('.zffs_list table td span').empty();
 			$(this).children('span').append('<img src="__PUBLIC__/home/img/pay/ok.png">');
 		});
+		var p_num = GetQueryString('p_num');
+		var priceTotal = GetQueryString('priceTotal');
+		$("#p_num").html(p_num);
+		$("#priceTotal").html(priceTotal);
+        $("input[name=p_num]").val(p_num);
+        $("input[name=priceTotal]").val(priceTotal);
     });
+
 	</script>
 
 </body>
