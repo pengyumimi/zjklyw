@@ -2,165 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07daf763-c78f-4a37-8499-516f97fde13c" name="默认的" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Home/View/Index/header.htmlbak" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Html/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Admin/0e89c8bb03d6c48bb3f0ca202b6dc8b7.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Admin/14e608e4cfe684c717fb6909f713df26.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Admin/362866b9705598e8b86a8db85dd9514f.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Admin/3e7e31a10ade6c505d34c6e7f4c1c9b2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Admin/3ede3ebeca1d40d13ba7f51cadfb4590.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Admin/5b8dde8096ff3da7486b4050e9fb389a.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Admin/5c95963ffefe890eead48bbba52abf8f.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Admin/669b0d4add23f1323b66c587414d970e.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Admin/7003232cd227f4bdd121179f309c7812.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Admin/70a311285f2274e115291d17d93dc893.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Admin/7d14a9285e5e27be1d7654a03fa075d0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Admin/88bf6dd62bb1a3e325980d638d028d08.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Admin/957dfd27577bba4a81827cc395850ab3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Admin/a4444f8443f657847f4af4106004da36.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Admin/c369b8a4ec808b7be032ea3808d14024.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Admin/c656a36ea28dc52a31abb9e506512585.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Admin/cef6f7d467be47ba0b10566640cce728.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Admin/e5f911de66759fc851aea6b2218d2069.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/1d7f21ab5a0c095fc27e717d8065b7f4.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/469497d4d9eed61c1215a2fda64f78ad.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/4dc814fc65e2f7fd5f1c32999181acd5.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/58189b9783bd38781d64849e3e43b1cf.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/79283f433f47159f61bbe00d9f63da11.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/7b54c39a3a6879160c61b22a5bb9f901.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/82399d823447999b062eff520fd3180b.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/829a493917dc05ac1b688a0118d62ce7.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/84e90dc7f72899ee11f23fe69b52f3ad.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/8de8a44100fc2b9fde5a00a4735537aa.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/94482442694d4747ae5f658be689c0b8.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/a2591f196eaa2594036088392e367792.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/a533935eba1e269b90c5d066747e12d1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/af5eb9f0bdc8eb29f160e585e8749fd0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/b47f029152004b750dbb0520393236d6.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/b8f40ff94fedc98b42a92d9dd803d838.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/b9512920b57a5ab33bd8a1dbfffe56b5.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/ed6a38b9ec17c8276936287af3e83d30.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/f867bff6e8ec98512bfc666f86cdf326.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Data/_fields/bdm232505697_db.cms_member.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Data/_fields/bdm232505697_db.cms_menu.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Data/_fields/bdm232505697_db.cms_news.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Data/_fields/bdm232505697_db.cms_news_content.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Data/_fields/bdm232505697_db.cms_newscontent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Data/_fields/bdm232505697_db.cms_position_content.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Admin/17_06_01.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Admin/17_06_02.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Admin/17_06_17.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Admin/17_06_18.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Admin/17_06_19.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Admin/17_06_21.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Admin/17_06_22.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Admin/17_06_24.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Admin/17_06_25.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Admin/17_08_12.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Common/17_06_01.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Common/17_06_04.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Common/17_06_07.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Common/17_06_10.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Common/17_06_13.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Common/17_06_16.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Common/17_06_19.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Common/17_06_22.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Common/17_06_25.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Common/17_06_28.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_06_08.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_06_09.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_06_10.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_06_11.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_06_12.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_06_13.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_06_14.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_06_15.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_06_16.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_06_17.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_06_29.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_06_30.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_07_02.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_07_20.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_07_30.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_08_02.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_08_06.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_08_10.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_08_12.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_08_21.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_08_24.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_08_28.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_08_29.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_08_30.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_08_31.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Admin/14e608e4cfe684c717fb6909f713df26.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Admin/362866b9705598e8b86a8db85dd9514f.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Admin/3ede3ebeca1d40d13ba7f51cadfb4590.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Admin/5b8dde8096ff3da7486b4050e9fb389a.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Admin/7003232cd227f4bdd121179f309c7812.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Admin/70a311285f2274e115291d17d93dc893.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Admin/7d14a9285e5e27be1d7654a03fa075d0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Admin/957dfd27577bba4a81827cc395850ab3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Admin/a4444f8443f657847f4af4106004da36.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Admin/c369b8a4ec808b7be032ea3808d14024.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Admin/c656a36ea28dc52a31abb9e506512585.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Admin/e5f911de66759fc851aea6b2218d2069.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Home/1d7f21ab5a0c095fc27e717d8065b7f4.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Home/4492db612ceb530f8f37e6d72b580d00.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Home/469497d4d9eed61c1215a2fda64f78ad.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Home/4dc814fc65e2f7fd5f1c32999181acd5.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Home/58189b9783bd38781d64849e3e43b1cf.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Home/79283f433f47159f61bbe00d9f63da11.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Home/7b54c39a3a6879160c61b22a5bb9f901.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Home/82399d823447999b062eff520fd3180b.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Home/829a493917dc05ac1b688a0118d62ce7.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Home/84e90dc7f72899ee11f23fe69b52f3ad.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Home/8de8a44100fc2b9fde5a00a4735537aa.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Home/94482442694d4747ae5f658be689c0b8.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Home/a2591f196eaa2594036088392e367792.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Home/a533935eba1e269b90c5d066747e12d1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Home/af5eb9f0bdc8eb29f160e585e8749fd0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Home/b47f029152004b750dbb0520393236d6.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Home/b8f40ff94fedc98b42a92d9dd803d838.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Home/b9512920b57a5ab33bd8a1dbfffe56b5.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Home/ed6a38b9ec17c8276936287af3e83d30.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Cache/Home/f867bff6e8ec98512bfc666f86cdf326.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Data/_fields/bdm232505697_db.cms_member.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Data/_fields/bdm232505697_db.cms_menu.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Data/_fields/bdm232505697_db.cms_news.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Data/_fields/bdm232505697_db.cms_news_content.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Data/_fields/bdm232505697_db.cms_position_content.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Logs/Admin/17_06_01.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Logs/Admin/17_06_02.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Logs/Common/17_06_01.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Logs/Common/17_06_04.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Logs/Common/17_06_07.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Logs/Common/17_06_10.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Logs/Common/17_06_13.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Logs/Common/17_06_16.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Logs/Home/17_06_08.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Logs/Home/17_06_09.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Logs/Home/17_06_10.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Logs/Home/17_06_11.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Logs/Home/17_06_12.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Logs/Home/17_06_13.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Logs/Home/17_06_14.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Logs/Home/17_06_15.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Logs/Home/17_06_16.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/Logs/Home/17_06_17.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Azjklynew/Runtimebak/common~runtime.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Common/Conf/config.php" afterPath="$PROJECT_DIR$/Azjklynew/Common/Conf/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Home/Controller/MemberController.class.php" afterPath="$PROJECT_DIR$/Azjklynew/Home/Controller/MemberController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Home/Controller/OrderController.class.php" afterPath="$PROJECT_DIR$/Azjklynew/Home/Controller/OrderController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Home/View/Common/header.html" afterPath="$PROJECT_DIR$/Azjklynew/Home/View/Common/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Home/View/Member/reg.html" afterPath="$PROJECT_DIR$/Azjklynew/Home/View/Member/reg.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Home/View/Member/signin.html" afterPath="$PROJECT_DIR$/Azjklynew/Home/View/Member/signin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/2854f462d0f544250f60033a7671c9b8.php" afterPath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/2854f462d0f544250f60033a7671c9b8.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/4492db612ceb530f8f37e6d72b580d00.php" afterPath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/4492db612ceb530f8f37e6d72b580d00.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/4e287833fcad8177f1f56e9c3a8c5b8b.php" afterPath="$PROJECT_DIR$/Azjklynew/Runtime/Cache/Home/4e287833fcad8177f1f56e9c3a8c5b8b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_09_03.log" afterPath="$PROJECT_DIR$/Azjklynew/Runtime/Logs/Home/17_09_03.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/home/ajaxapi/ajaxapi_sign.js" afterPath="$PROJECT_DIR$/Public/home/ajaxapi/ajaxapi_sign.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/home/js/zjkly_main.js" afterPath="$PROJECT_DIR$/Public/home/js/zjkly_main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/home/signin.html" afterPath="$PROJECT_DIR$/Public/home/signin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Conf/debug.php" afterPath="$PROJECT_DIR$/ThinkPHP/Conf/debug.php" />
     </list>
     <ignored path="zjklyw.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -226,21 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zjkly_main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Public/home/js/zjkly_main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="68" column="28" lean-forward="true" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Azjklynew/Home/View/Common/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
-              <caret line="56" column="17" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="56" selection-end-column="17" />
+            <state relative-caret-position="464">
+              <caret line="46" column="123" lean-forward="false" selection-start-line="46" selection-start-column="123" selection-end-line="46" selection-end-column="123" />
               <folding />
             </state>
           </provider>
@@ -259,18 +92,8 @@
       <file leaf-file-name="signin.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Azjklynew/Home/View/Member/signin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
+            <state relative-caret-position="760">
               <caret line="52" column="20" lean-forward="false" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Azjklynew/Home/View/Common/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -279,7 +102,7 @@
       <file leaf-file-name="reg.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Azjklynew/Home/View/Member/reg.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
+            <state relative-caret-position="93">
               <caret line="62" column="50" lean-forward="false" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
               <folding />
             </state>
@@ -331,9 +154,9 @@
         <option value="$PROJECT_DIR$/Azjklynew/Home/View/Member/reg.html" />
         <option value="$PROJECT_DIR$/Azjklynew/Home/View/Member/signin.html" />
         <option value="$PROJECT_DIR$/Azjklynew/Home/Controller/MemberController.class.php" />
-        <option value="$PROJECT_DIR$/Azjklynew/Home/View/Common/header.html" />
         <option value="$PROJECT_DIR$/Public/home/ajaxapi/ajaxapi_sign.js" />
         <option value="$PROJECT_DIR$/Public/home/js/zjkly_main.js" />
+        <option value="$PROJECT_DIR$/Azjklynew/Home/View/Common/header.html" />
       </list>
     </option>
   </component>
@@ -346,7 +169,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="width" value="1932" />
-    <option name="height" value="1056" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -540,15 +363,15 @@
       <workItem from="1502069081864" duration="638000" />
       <workItem from="1502520196701" duration="9620000" />
       <workItem from="1502674930382" duration="13000" />
-      <workItem from="1504417049456" duration="4326000" />
+      <workItem from="1504417049456" duration="4939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22414000" />
+    <option name="totallyTimeSpent" value="23027000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1932" height="1056" extended-state="0" />
+    <frame x="-8" y="0" width="1932" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -884,30 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Azjklynew/Home/View/Common/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Azjklynew/Home/View/Member/reg.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="62" column="50" lean-forward="false" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Azjklynew/Home/View/Member/signin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="52" column="20" lean-forward="false" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Azjklynew/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-420">
@@ -924,18 +723,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Azjklynew/Home/View/Common/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="56" column="17" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="56" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Azjklynew/Home/Controller/MemberController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="31" column="50" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="31" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/home/js/zjkly_main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="68" column="28" lean-forward="false" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -954,10 +753,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/home/js/zjkly_main.js">
+    <entry file="file://$PROJECT_DIR$/Azjklynew/Home/View/Member/reg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="68" column="28" lean-forward="true" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+        <state relative-caret-position="93">
+          <caret line="62" column="50" lean-forward="false" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Azjklynew/Home/View/Common/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Azjklynew/Home/View/Member/signin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="52" column="20" lean-forward="false" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Azjklynew/Home/View/Common/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="46" column="123" lean-forward="false" selection-start-line="46" selection-start-column="123" selection-end-line="46" selection-end-column="123" />
           <folding />
         </state>
       </provider>
