@@ -44,7 +44,7 @@ $navs=D("Menu")->getBarMenus();
 			<?php
 				if (homeLoginUsername()){
 			?>
-			<a href=""><?php echo homeLoginUsername()?></a>><a href="{:U('member/loginout')}">退出</a>
+			<a href="/Public/home/useradmin.html"><?php echo homeLoginUsername()?></a>><a href="{:U('member/loginout')}">退出11</a>
 			<?php
 				}else{
 			?>
@@ -52,7 +52,7 @@ $navs=D("Menu")->getBarMenus();
 			<li class="reg_btn"><a href="{:U('member/index')}">注册</a></li>
 			<li class="qq_btn"><a href="#"><i class="fa fa-qq"></i></a></li>
 			<li class="weixin_btn"><a href="#"><i class="fa fa-weixin"></i></a></li>
-			<li class="username"><a href="Public/home/useradmin.html"></a></li>
+			<li class="username"><a href="/Public/home/useradmin.html"></a></li>
 			<?php
 				}
 			?>

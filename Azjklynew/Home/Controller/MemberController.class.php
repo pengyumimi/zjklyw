@@ -46,8 +46,12 @@ class MemberController extends CommonController{
 
 	//退出登录
 	public function loginout() {
-		session('homeUser', null);
-		$this->redirect('/index.php?c=member');
+	    session('homeUser', null);
+        $this->redirect('/index.php');
+        if(session == ''){
+
+        }
+
 	}
 //注册
 public function  regist(){

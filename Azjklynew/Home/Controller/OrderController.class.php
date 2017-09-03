@@ -29,7 +29,7 @@ class OrderController extends CommonController{
     public function  confirm(){
          $user=$this->isLogin();
         if($user == false){
-           $this->error("您没有登录111，请登录！");
+           $this->error("您没有登录，请登录！");
 
         }else{
             $this->display();

@@ -127,7 +127,7 @@ function signin(url, pagedata, _this) {
 		success: function(data){
 			if (data.status == 1) {
 				$('.tip').html(data.message).fadeIn(0).delay(1000).fadeOut("slow");
-				localStorage.setItem('username',data.name);
+				//localStorage.setItem('username',data.name);
 				window.location.href = "../../index.php";
 			} else if (data.status == 0) {
 				$('.tip').html(data.message).fadeIn(0).delay(1000).fadeOut("slow");

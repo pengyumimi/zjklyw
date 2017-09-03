@@ -38,7 +38,7 @@ $(".go_top").on("click",function(){
 });
 
 //check login info
-var username = localStorage.getItem('username');
+/*var username = localStorage.getItem('username');
 if( username == "" || username == null){
 	$(".signin_btn,.reg_btn,.qq_btn,.weixin_btn").show();
 }else{
@@ -48,7 +48,7 @@ if( username == "" || username == null){
 	$(".username").append("<a href='#' class='exitbtn'>退出</a>");
 	//alert(username);
 	$(".hygl_username").html(username);
-}
+}*/
 $(".exitbtn").on("click",function(){
     function deleteItem(){
         localStorage.removeItem('username');

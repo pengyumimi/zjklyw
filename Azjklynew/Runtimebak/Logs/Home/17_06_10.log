@@ -1,9 +1,0 @@
-[ 2017-06-10T04:12:30+08:00 ] 42.236.54.42 /index.php?c=alljd=cat&id=1
-ERR: 无法加载控制器:Alljd=cat
-
-[ 2017-06-10T05:49:39+08:00 ] 42.156.136.43 /index.php?c=alljd=cat&id=1
-ERR: 无法加载控制器:Alljd=cat
-
-[ 2017-06-10T19:00:25+08:00 ] 220.181.125.4 /index.php?c=hotel=cat&id=1
-ERR: 无法加载控制器:Hotel=cat
-
